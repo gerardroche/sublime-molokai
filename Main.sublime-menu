@@ -1,0 +1,38 @@
+[
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "Molokai",
+                        "children": [
+                            {
+                                "caption": "README",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/molokai/README.md"
+                                }
+                            },
+                            {
+                                "caption": "CHANGELOG",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/molokai/CHANGELOG.md"
+                                }
+                            },
+                            {
+                                "caption": "LICENSE",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/molokai/LICENSE"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

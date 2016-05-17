@@ -128,14 +128,14 @@ set tagsOptions                     stippled_underline
        hi SpecialKey      guifg=#465457
     end
 
-    " GitGutter (based on https://github.com/airblade/vim-gitgutter)
-    hi GitGutterAdd         guifg=#009900
-    hi GitGutterChange      guifg=#bbbb00
-    hi GitGutterDelete      guifg=#ff2222
-    hi GitGutterIgnored     guifg=#565656
-    hi GitGutterUntracked   guifg=#565656
-
 " }}}
+
+" GitGutter (based on https://github.com/airblade/vim-gitgutter)
+hi GitGutterAdd         guifg=#009900
+hi GitGutterChange      guifg=#bbbb00
+hi GitGutterDelete      guifg=#ff2222
+hi GitGutterIgnored     guifg=#565656
+hi GitGutterUntracked   guifg=#565656
 
 " Linter
 hi link LinterWarning       SpellCap

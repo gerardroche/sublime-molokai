@@ -131,16 +131,16 @@ set tagsOptions                     stippled_underline
 " }}}
 
 " gitgutter (based on https://github.com/airblade/vim-gitgutter)
-hi gitgutteradd         guifg=#009900
-hi gitgutterchange      guifg=#bbbb00
-hi gitgutterdelete      guifg=#ff2222
-hi gitgutterignored     guifg=#565656
-hi gitgutteruntracked   guifg=#565656
+hi git.gutter.add         guifg=#009900
+hi git.gutter.change      guifg=#bbbb00
+hi git.gutter.delete      guifg=#ff2222
+hi git.gutter.ignored     guifg=#565656
+hi git.gutter.untracked   guifg=#565656
 
 " linter
-hi link linterwarning       spellcap
-hi link lintererror         spellbad
-hi link linterguttermark    error
+hi link linter.warning       spellcap
+hi link linter.error         spellbad
+hi link linter.gutter-mark   error
 
 hi link constant.language.magic                 constant
 hi link constant.language.boolean               boolean
@@ -185,13 +185,13 @@ hi link source.json constant.language                   number
 
 " gitgutter
 " https://github.com/jisaacks/gitgutter
-hi link markup.inserted.git_gutter              gitgutteradd
-hi link markup.changed.git_gutter               gitgutterchange
-hi link markup.deleted.git_gutter               gitgutterdelete
-hi link markup.untracked.git_gutter             gitgutteruntracked
-hi link markup.ignored.git_gutter               gitgutterignored
+hi link markup.inserted.git_gutter              git.gutter.add
+hi link markup.changed.git_gutter               git.gutter.change
+hi link markup.deleted.git_gutter               git.gutter.delete
+hi link markup.untracked.git_gutter             git.gutter.untracked
+hi link markup.ignored.git_gutter               git.gutter.ignored
 
 " sublimelinter
-hi link sublimelinter.mark.warning              linterwarning
-hi link sublimelinter.mark.error                lintererror
-hi link sublimelinter.gutter-mark               linterguttermark
+hi link sublimelinter.mark.warning              linter.warning
+hi link sublimelinter.mark.error                linter.error
+hi link sublimelinter.gutter-mark               linter.gutter-mark

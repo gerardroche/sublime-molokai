@@ -219,7 +219,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>error, invalid, linterguttermark, sublimelinter.gutter-mark</string>
+            <string>error, invalid, linter.gutter-mark, sublimelinter.gutter-mark</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -522,7 +522,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>lintererror, spellbad, sublimelinter.mark.error</string>
+            <string>linter.error, spellbad, sublimelinter.mark.error</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -531,7 +531,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>linterwarning, spellcap, sublimelinter.mark.warning</string>
+            <string>linter.warning, spellcap, sublimelinter.mark.warning</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -819,7 +819,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gitgutteradd, markup.inserted.git_gutter</string>
+            <string>git.gutter.add, markup.inserted.git_gutter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -828,7 +828,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gitgutterchange, markup.changed.git_gutter</string>
+            <string>git.gutter.change, markup.changed.git_gutter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -837,7 +837,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gitgutterdelete, markup.deleted.git_gutter</string>
+            <string>git.gutter.delete, markup.deleted.git_gutter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -846,7 +846,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gitgutterignored, markup.ignored.git_gutter, markup.untracked.git_gutter</string>
+            <string>git.gutter.ignored, markup.ignored.git_gutter, markup.untracked.git_gutter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -855,7 +855,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gitgutteruntracked</string>
+            <string>git.gutter.untracked</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>

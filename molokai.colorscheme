@@ -142,22 +142,18 @@ hi link linter.warning       spellcap
 hi link linter.error         spellbad
 hi link linter.gutter-mark   error
 
-hi link constant.language.magic                 constant
 hi link constant.language.boolean               boolean
 hi link constant.language.null                  type
 hi link constant.character                      specialchar
 hi link constant.numeric                        number
-hi link constant.other                          constant
 hi link support.constant                        constant
 hi link support.function                        function
 hi link entity.name.function                    function
 hi link entity.other                            function
 hi link support.class.builtin                   storageclass
 hi link support.function.magic                  normal
-hi link keyword.other                           keyword
 hi link keyword.other.use                       preproc
 hi link keyword.other.namespace                 preproc
-hi link keyword.control                         keyword
 hi link keyword.control.import                  preproc
 hi link keyword.operator                        operator
 hi link keyword.operator.type                   keyword

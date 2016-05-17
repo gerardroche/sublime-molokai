@@ -93,7 +93,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>conditional, constant.character, keyword.control, keyword.operator.type, keyword.other, storage.modifier.extends, storage.modifier.implements</string>
+            <string>conditional, constant.character, keyword.operator.type, storage.modifier.extends, storage.modifier.implements</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -104,7 +104,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>constant, constant.language.magic, constant.other, support.constant</string>
+            <string>constant, support.constant</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>

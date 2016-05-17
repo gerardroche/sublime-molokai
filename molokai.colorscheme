@@ -137,6 +137,11 @@ set tagsOptions                     stippled_underline
 
 " }}}
 
+" Linter
+hi link LinterWarning       SpellCap
+hi link LinterError         SpellBad
+hi link LinterGutterMark    Error
+
 hi link comment                                 Comment
 hi link constant.language.magic                 Constant
 hi link constant.language.boolean               Boolean
@@ -187,3 +192,8 @@ hi link markup.changed.git_gutter               GitGutterChange
 hi link markup.deleted.git_gutter               GitGutterDelete
 hi link markup.untracked.git_gutter             GitGutterUntracked
 hi link markup.ignored.git_gutter               GitGutterIgnored
+
+" SublimeLinter
+hi link sublimelinter.mark.warning              LinterWarning
+hi link sublimelinter.mark.error                LinterError
+hi link sublimelinter.gutter-mark               LinterGutterMark

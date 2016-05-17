@@ -219,7 +219,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>Error, invalid</string>
+            <string>Error, LinterGutterMark, invalid, sublimelinter.gutter-mark</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -522,7 +522,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>SpellBad</string>
+            <string>LinterError, SpellBad, sublimelinter.mark.error</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -531,7 +531,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>SpellCap</string>
+            <string>LinterWarning, SpellCap, sublimelinter.mark.warning</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>

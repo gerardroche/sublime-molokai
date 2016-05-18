@@ -17,19 +17,19 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#1B1D1E</string>
+                <string>#1b1d1e</string>
                 <key>foreground</key>
-                <string>#F8F8F2</string>
+                <string>#f8f8f2</string>
                 <key>invisibles</key>
                 <string>#3b3a32</string>
                 <key>caret</key>
-                <string>#F8F8F0</string>
+                <string>#f8f8f0</string>
                 <key>lineHighlight</key>
                 <string>#293739</string>
                 <key>gutterForeground</key>
                 <string>#465457</string>
                 <key>selection</key>
-                <string>#403D3D</string>
+                <string>#403d3d</string>
                 <key>selectionBorder</key>
                 <string>#1c1c1c</string>
                 <key>findHighlight</key>
@@ -59,7 +59,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#1B1D1E</string>
+                <string>#1b1d1e</string>
             </dict>
         </dict>
         <dict>
@@ -68,7 +68,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F8F2</string>
+                <string>#f8f8f2</string>
             </dict>
         </dict>
         <dict>
@@ -86,12 +86,12 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F8F0</string>
+                <string>#f8f8f0</string>
             </dict>
         </dict>
         <dict>
             <key>scope</key>
-            <string>lineHighlight</string>
+            <string>linehighlight</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -100,7 +100,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gutterForeground</string>
+            <string>gutterforeground</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -113,12 +113,12 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#403D3D</string>
+                <string>#403d3d</string>
             </dict>
         </dict>
         <dict>
             <key>scope</key>
-            <string>selectionBorder</string>
+            <string>selectionborder</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -127,7 +127,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>findHighlight</string>
+            <string>findhighlight</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -136,7 +136,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>findHighlightForeground</string>
+            <string>findhighlightforeground</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -145,7 +145,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>stackGuide</string>
+            <string>stackguide</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -154,7 +154,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>activeGuide</string>
+            <string>activeguide</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -163,7 +163,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>bracketContentsForeground</string>
+            <string>bracketcontentsforeground</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -172,7 +172,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>bracketContentsOptions</string>
+            <string>bracketcontentsoptions</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -181,7 +181,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>bracketsForeground</string>
+            <string>bracketsforeground</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -190,7 +190,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>bracketsOptions</string>
+            <string>bracketsoptions</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -199,7 +199,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>tagsOptions</string>
+            <string>tagsoptions</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>

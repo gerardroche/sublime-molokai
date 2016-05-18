@@ -26,30 +26,30 @@
                 <string>#f8f8f0</string>
                 <key>lineHighlight</key>
                 <string>#293739</string>
+                <key>bracketsForeground</key>
+                <string>#f8f8f2a5</string>
+                <key>bracketsOptions</key>
+                <string>underline</string>
+                <key>bracketContentsForeground</key>
+                <string>#f8f8f2a5</string>
+                <key>bracketContentsOptions</key>
+                <string>underline</string>
+                <key>tagsOptions</key>
+                <string>stippled_underline</string>
+                <key>findHighlight</key>
+                <string>#ffe792</string>
+                <key>findHighlightForeground</key>
+                <string>#000000</string>
                 <key>gutterForeground</key>
                 <string>#465457</string>
                 <key>selection</key>
                 <string>#403d3d</string>
                 <key>selectionBorder</key>
                 <string>#1c1c1c</string>
-                <key>findHighlight</key>
-                <string>#ffe792</string>
-                <key>findHighlightForeground</key>
-                <string>#000000</string>
                 <key>stackGuide</key>
                 <string>#635f2d</string>
                 <key>activeGuide</key>
                 <string>#7fb11b</string>
-                <key>bracketContentsForeground</key>
-                <string>#f8f8f2a5</string>
-                <key>bracketContentsOptions</key>
-                <string>underline</string>
-                <key>bracketsForeground</key>
-                <string>#f8f8f2a5</string>
-                <key>bracketsOptions</key>
-                <string>underline</string>
-                <key>tagsOptions</key>
-                <string>stippled_underline</string>
             </dict>
         </dict>
 
@@ -94,13 +94,55 @@
             <string>linehighlight</string>
             <key>settings</key>
             <dict>
-                <key>foreground</key>
+                <key>background</key>
                 <string>#293739</string>
             </dict>
         </dict>
         <dict>
             <key>scope</key>
-            <string>gutterforeground</string>
+            <string>brackets</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8f8f2a5</string>
+                <key>fontStyle</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>bracketcontents</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8f8f2a5</string>
+                <key>fontStyle</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>tags</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>stippled_underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>findhighlight</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#000000</string>
+                <key>background</key>
+                <string>#ffe792</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>gutter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -112,7 +154,7 @@
             <string>selection</string>
             <key>settings</key>
             <dict>
-                <key>foreground</key>
+                <key>background</key>
                 <string>#403d3d</string>
             </dict>
         </dict>
@@ -123,24 +165,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#1c1c1c</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>findhighlight</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#ffe792</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>findhighlightforeground</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#000000</string>
             </dict>
         </dict>
         <dict>
@@ -159,51 +183,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#7fb11b</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>bracketcontentsforeground</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f8f8f2a5</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>bracketcontentsoptions</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>underline</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>bracketsforeground</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f8f8f2a5</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>bracketsoptions</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>underline</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>tagsoptions</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>stippled_underline</string>
             </dict>
         </dict>
         <dict>

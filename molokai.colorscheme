@@ -1,21 +1,34 @@
 
-hi background                                   guibg=#1b1d1e
+" Settings
+" http://docs.sublimetext.info/en/latest/reference/color_schemes.html
+
+" Settings - General
+hi background                                       guibg=#1b1d1e
 hi foreground                   guifg=#f8f8f2
 hi invisibles                   guifg=#3b3a32
 hi caret                        guifg=#f8f8f0
-hi linehighlight                guifg=#293739
-hi gutterforeground             guifg=#465457
-hi selection                    guifg=#403d3d
+hi linehighlight                guibg=#293739
+
+" Settings - Brackets
+hi brackets                     guifg=#f8f8f2a5                     gui=underline
+hi bracketcontents              guifg=#f8f8f2a5                     gui=underline
+
+" Settings - Tags
+hi tags                                                             gui=stippled_underline
+
+" Settings - Find
+hi findhighlight                guifg=#000000       guibg=#ffe792
+
+" Settings - Gutter
+hi gutter                       guifg=#465457
+
+" Settings - Selection
+hi selection                    guibg=#403d3d
 hi selectionborder              guifg=#1c1c1c
-hi findhighlight                guifg=#ffe792
-hi findhighlightforeground      guifg=#000000
+
+" Settings - Guides
 hi stackguide                   guifg=#635f2d
 hi activeguide                  guifg=#7fb11b
-hi bracketcontentsforeground    guifg=#f8f8f2a5
-hi bracketcontentsoptions                                       gui=underline
-hi bracketsforeground           guifg=#f8f8f2a5
-hi bracketsoptions                                              gui=underline
-hi tagsoptions                                                  gui=stippled_underline
 
 " {{{ based on https://github.com/tomasr/molokai.git
 

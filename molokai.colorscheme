@@ -1,21 +1,21 @@
 
-set background                      #1B1D1E
-set foreground                      #F8F8F2
-set invisibles                      #3b3a32
-set caret                           #F8F8F0
-set lineHighlight                   #293739
-set gutterForeground                #465457
-set selection                       #403D3D
-set selectionBorder                 #1c1c1c
-set findHighlight                   #ffe792
-set findHighlightForeground         #000000
-set stackGuide                      #635f2d
-set activeGuide                     #7fb11b
-set bracketContentsForeground       #f8f8f2a5
-set bracketContentsOptions          underline
-set bracketsForeground              #f8f8f2a5
-set bracketsOptions                 underline
-set tagsOptions                     stippled_underline
+hi background                                   guibg=#1B1D1E
+hi foreground                   guifg=#F8F8F2
+hi invisibles                   guifg=#3b3a32
+hi caret                        guifg=#F8F8F0
+hi lineHighlight                guifg=#293739
+hi gutterForeground             guifg=#465457
+hi selection                    guifg=#403D3D
+hi selectionBorder              guifg=#1c1c1c
+hi findHighlight                guifg=#ffe792
+hi findHighlightForeground      guifg=#000000
+hi stackGuide                   guifg=#635f2d
+hi activeGuide                  guifg=#7fb11b
+hi bracketContentsForeground    guifg=#f8f8f2a5
+hi bracketContentsOptions                                       gui=underline
+hi bracketsForeground           guifg=#f8f8f2a5
+hi bracketsOptions                                              gui=underline
+hi tagsOptions                                                  gui=stippled_underline
 
 " {{{ based on https://github.com/tomasr/molokai.git
 

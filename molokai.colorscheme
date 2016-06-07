@@ -1,36 +1,25 @@
-
-" Settings
 " http://docs.sublimetext.info/en/latest/reference/color_schemes.html
 
-" Settings - General
-hi background                                       guibg=#1b1d1e
-hi foreground                   guifg=#f8f8f2
-hi invisibles                   guifg=#3b3a32
-hi caret                        guifg=#f8f8f0
-hi linehighlight                guibg=#293739
+" Settings {{{
 
-" Settings - Brackets
-hi brackets                     guifg=#f8f8f2a5                     gui=underline
-hi bracketcontents              guifg=#f8f8f2a5                     gui=underline
+    hi background                       guibg=#1b1d1e
+    hi foreground       guifg=#f8f8f2
+    hi invisibles       guifg=#3b3a32
+    hi caret            guifg=#f8f8f0
+    hi linehighlight    guibg=#293739
+    hi brackets         guifg=#f8f8f2a5                 gui=underline
+    hi bracketcontents  guifg=#f8f8f2a5                 gui=underline
+    hi tags                                             gui=stippled_underline
+    hi findhighlight    guifg=#000000   guibg=#ffe792
+    hi gutter           guifg=#465457
+    hi selection        guibg=#403d3d
+    hi selectionborder  guifg=#1c1c1c
+    hi stackguide       guifg=#635f2d
+    hi activeguide      guifg=#7fb11b
 
-" Settings - Tags
-hi tags                                                             gui=stippled_underline
+" }}}
 
-" Settings - Find
-hi findhighlight                guifg=#000000       guibg=#ffe792
-
-" Settings - Gutter
-hi gutter                       guifg=#465457
-
-" Settings - Selection
-hi selection                    guibg=#403d3d
-hi selectionborder              guifg=#1c1c1c
-
-" Settings - Guides
-hi stackguide                   guifg=#635f2d
-hi activeguide                  guifg=#7fb11b
-
-" {{{ based on https://github.com/tomasr/molokai.git
+" {{{ https://github.com/tomasr/molokai.git
 
     hi boolean         guifg=#ae81ff               gui=none
     hi character       guifg=#e6db74
@@ -143,18 +132,6 @@ hi activeguide                  guifg=#7fb11b
 
 " }}}
 
-" gitgutter (based on https://github.com/airblade/vim-gitgutter)
-hi gutter.scm.add         guifg=#009900
-hi gutter.scm.change      guifg=#bbbb00
-hi gutter.scm.delete      guifg=#ff2222
-hi gutter.scm.ignored     guifg=#565656
-hi gutter.scm.untracked   guifg=#565656
-
-" linter
-hi link linter.error         spellbad
-hi link linter.gutter.mark   error
-hi link linter.warning       spellcap
-
 hi link constant.character                      specialchar
 hi link constant.language.boolean               boolean
 hi link constant.language.null                  type
@@ -195,15 +172,30 @@ hi link source.json constant.language                   number
 hi link source.json punctuation.definition.array        preproc
 hi link source.json punctuation.definition.dictionary   preproc
 
-" gitgutter
-" https://github.com/jisaacks/gitgutter
-hi link markup.changed.git_gutter               gutter.scm.change
-hi link markup.deleted.git_gutter               gutter.scm.delete
-hi link markup.ignored.git_gutter               gutter.scm.ignored
-hi link markup.inserted.git_gutter              gutter.scm.add
-hi link markup.untracked.git_gutter             gutter.scm.untracked
+" gitgutter (based on https://github.com/airblade/vim-gitgutter)
+hi gutter.scm.add         guifg=#009900
+hi gutter.scm.change      guifg=#bbbb00
+hi gutter.scm.delete      guifg=#ff2222
+hi gutter.scm.ignored     guifg=#565656
+hi gutter.scm.untracked   guifg=#565656
 
-" sublimelinter
-hi link sublimelinter.gutter-mark               linter.gutter.mark
-hi link sublimelinter.mark.error                linter.error
-hi link sublimelinter.mark.warning              linter.warning
+" linter (based on https://github.com/scrooloose/syntastic)
+hi link linter.error         spellbad
+hi link linter.gutter.mark   error
+hi link linter.warning       spellcap
+
+" {{{ Plugins
+
+    " Git Gutter https://github.com/jisaacks/gitgutter
+    hi link markup.changed.git_gutter               gutter.scm.change
+    hi link markup.deleted.git_gutter               gutter.scm.delete
+    hi link markup.ignored.git_gutter               gutter.scm.ignored
+    hi link markup.inserted.git_gutter              gutter.scm.add
+    hi link markup.untracked.git_gutter             gutter.scm.untracked
+
+    " Sublime Linter https://github.com/SublimeLinter/SublimeLinter3
+    hi link sublimelinter.gutter-mark               linter.gutter.mark
+    hi link sublimelinter.mark.error                linter.error
+    hi link sublimelinter.mark.warning              linter.warning
+
+" }}}

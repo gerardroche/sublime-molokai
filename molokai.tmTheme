@@ -73,6 +73,17 @@
         </dict>
         <dict>
             <key>scope</key>
+            <string>bracketcontents</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8f8f2a5</string>
+                <key>fontStyle</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>bracketcontentsforeground</string>
             <key>settings</key>
             <dict>
@@ -91,6 +102,17 @@
         </dict>
         <dict>
             <key>scope</key>
+            <string>brackets</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8f8f2a5</string>
+                <key>fontStyle</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>bracketsforeground</string>
             <key>settings</key>
             <dict>
@@ -103,28 +125,6 @@
             <string>bracketsoptions</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>underline</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>bracketcontents</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f8f8f2a5</string>
-                <key>fontStyle</key>
-                <string>underline</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>brackets</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f8f8f2a5</string>
                 <key>fontStyle</key>
                 <string>underline</string>
             </dict>

@@ -151,59 +151,59 @@ hi git.gutter.ignored     guifg=#565656
 hi git.gutter.untracked   guifg=#565656
 
 " linter
-hi link linter.warning       spellcap
 hi link linter.error         spellbad
 hi link linter.gutter-mark   error
+hi link linter.warning       spellcap
 
+hi link constant.character                      specialchar
 hi link constant.language.boolean               boolean
 hi link constant.language.null                  type
-hi link constant.character                      specialchar
 hi link constant.numeric                        number
-hi link support.constant                        constant
-hi link support.function                        function
-hi link support.function.construct              keyword
-hi link meta.array support.function.construct   type
-hi link meta.function storage.modifier          keyword
-hi link support.class.builtin                   storageclass
-hi link support.function.magic                  normal
-hi link keyword.other.use                       preproc
-hi link keyword.other.namespace                 preproc
+hi link invalid                                 error
 hi link keyword.control.import                  preproc
 hi link keyword.operator                        operator
 hi link keyword.operator.type                   keyword
-hi link variable                                identifier
-hi link variable.other.global                   type
+hi link keyword.other.namespace                 preproc
+hi link keyword.other.use                       preproc
+hi link meta.array support.function.construct   type
+hi link meta.function storage.modifier          keyword
+hi link punctuation.definition.array.begin      special
+hi link punctuation.definition.array.end        special
+hi link punctuation.definition.begin            special
+hi link punctuation.definition.end              special
+hi link punctuation.definition.parameters.begin special
+hi link punctuation.definition.parameters.end   special
 hi link punctuation.definition.variable         operator
-hi link storage.type                            type
-hi link storage.type.class                      keyword
+hi link punctuation.section                     special
+hi link punctuation.section.embedded.begin      delimiter
 hi link storage.modifier                        type
 hi link storage.modifier.extends                keyword
 hi link storage.modifier.implements             keyword
 hi link storage.modifier.reference              operator
-hi link invalid                                 error
-hi link punctuation.section                     special
-hi link punctuation.section.embedded.begin      delimiter
-hi link punctuation.definition.begin            special
-hi link punctuation.definition.end              special
-hi link punctuation.definition.array.begin      special
-hi link punctuation.definition.array.end        special
-hi link punctuation.definition.parameters.begin special
-hi link punctuation.definition.parameters.end   special
+hi link storage.type                            type
+hi link storage.type.class                      keyword
+hi link support.class.builtin                   storageclass
+hi link support.constant                        constant
+hi link support.function                        function
+hi link support.function.construct              keyword
+hi link support.function.magic                  normal
+hi link variable                                identifier
+hi link variable.other.global                   type
 
 " json
-hi link source.json punctuation.definition.dictionary   preproc
-hi link source.json punctuation.definition.array        preproc
 hi link source.json constant.language                   number
+hi link source.json punctuation.definition.array        preproc
+hi link source.json punctuation.definition.dictionary   preproc
 
 " gitgutter
 " https://github.com/jisaacks/gitgutter
-hi link markup.inserted.git_gutter              git.gutter.add
 hi link markup.changed.git_gutter               git.gutter.change
 hi link markup.deleted.git_gutter               git.gutter.delete
-hi link markup.untracked.git_gutter             git.gutter.untracked
 hi link markup.ignored.git_gutter               git.gutter.ignored
+hi link markup.inserted.git_gutter              git.gutter.add
+hi link markup.untracked.git_gutter             git.gutter.untracked
 
 " sublimelinter
-hi link sublimelinter.mark.warning              linter.warning
-hi link sublimelinter.mark.error                linter.error
 hi link sublimelinter.gutter-mark               linter.gutter-mark
+hi link sublimelinter.mark.error                linter.error
+hi link sublimelinter.mark.warning              linter.warning

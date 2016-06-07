@@ -4,18 +4,24 @@
 
     hi activeguide      guifg=#7fb11b
     hi background                       guibg=#1b1d1e
+    hi bracketcontentsforeground                                    guifg=#f8f8f2a5
+    hi bracketcontentsoptions                                                                       gui=underline
+    hi bracketsforeground                                           guifg=#f8f8f2a5
+    hi bracketsoptions                                                                              gui=underline
     hi bracketcontents  guifg=#f8f8f2a5                 gui=underline
     hi brackets         guifg=#f8f8f2a5                 gui=underline
     hi caret            guifg=#f8f8f0
     hi findhighlight    guifg=#000000   guibg=#ffe792
+    hi findhighlightforeground                                      guifg=#000000
     hi foreground       guifg=#f8f8f2
-    hi gutter           guifg=#465457
+    hi gutterforeground guifg=#465457
     hi invisibles       guifg=#3b3a32
     hi linehighlight    guibg=#293739
     hi selection        guibg=#403d3d
     hi selectionborder  guifg=#1c1c1c
     hi stackguide       guifg=#635f2d
     hi tags                                             gui=stippled_underline
+    hi tagsoptions                                                                                  gui=stippled_underline
 
 " }}}
 

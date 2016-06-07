@@ -73,6 +73,42 @@
         </dict>
         <dict>
             <key>scope</key>
+            <string>bracketcontentsforeground</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8f8f2a5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>bracketcontentsoptions</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>bracketsforeground</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8f8f2a5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>bracketsoptions</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>bracketcontents</string>
             <key>settings</key>
             <dict>
@@ -115,6 +151,15 @@
         </dict>
         <dict>
             <key>scope</key>
+            <string>findhighlightforeground</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#000000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>foreground</string>
             <key>settings</key>
             <dict>
@@ -124,7 +169,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gutter</string>
+            <string>gutterforeground</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -179,6 +224,15 @@
         <dict>
             <key>scope</key>
             <string>tags</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>stippled_underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>tagsoptions</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>

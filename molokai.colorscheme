@@ -52,7 +52,7 @@
     hi keyword         guifg=#f92672               gui=bold
     hi label           guifg=#e6db74               gui=none
     hi macro           guifg=#c4be89               gui=italic
-    " hi specialkey      guifg=#66d9ef               gui=italic
+    hi specialkey      guifg=#66d9ef               gui=italic
 
     hi matchparen      guifg=#000000 guibg=#fd971f gui=bold
     hi modemsg         guifg=#e6db74
@@ -164,19 +164,19 @@ hi link support.function.magic                  normal
 hi link variable                                identifier
 hi link variable.other.global                   type
 
-" json
+" JSON
 hi link source.json constant.language                   number
 hi link source.json punctuation.definition.array        preproc
 hi link source.json punctuation.definition.dictionary   preproc
 
-" gitgutter (based on https://github.com/airblade/vim-gitgutter)
+" Git Gutter (based on https://github.com/airblade/vim-gitgutter)
 hi gutter.scm.add         guifg=#009900
 hi gutter.scm.change      guifg=#bbbb00
 hi gutter.scm.delete      guifg=#ff2222
 hi gutter.scm.ignored     guifg=#565656
 hi gutter.scm.untracked   guifg=#565656
 
-" linter (based on https://github.com/scrooloose/syntastic)
+" Linter (based on https://github.com/scrooloose/syntastic)
 hi link linter.error         spellbad
 hi link linter.gutter.mark   error
 hi link linter.warning       spellcap
@@ -190,7 +190,7 @@ hi link linter.warning       spellcap
     hi link markup.inserted.git_gutter              gutter.scm.add
     hi link markup.untracked.git_gutter             gutter.scm.untracked
 
-    " Sublime Linter https://github.com/SublimeLinter/SublimeLinter3
+    " Linter https://github.com/SublimeLinter/SublimeLinter3
     hi link sublimelinter.gutter-mark               linter.gutter.mark
     hi link sublimelinter.mark.error                linter.error
     hi link sublimelinter.mark.warning              linter.warning

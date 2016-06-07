@@ -671,6 +671,17 @@
         </dict>
         <dict>
             <key>scope</key>
+            <string>specialkey</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#465457</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>matchparen</string>
             <key>settings</key>
             <dict>
@@ -1412,15 +1423,6 @@
         <dict>
             <key>scope</key>
             <string>nontext</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#465457</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>specialkey</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>

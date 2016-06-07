@@ -23,9 +23,9 @@ Search for "molokai".
 
 1. Close Sublime Text.
 2. Download or clone this repository to a directory named `molokai` in the Sublime Text Packages directory for your platform:
-    * Linux: `git clone https://github.com/gerardroche/molokai.git ~/.config/sublime-text-3/Packages/molokai`
-    * OS X: `git clone https://github.com/gerardroche/molokai.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/molokai`
-    * Windows: `git clone https://github.com/gerardroche/molokai.git %APPDATA%\Sublime/ Text/ 3/Packages/molokai`
+    * Linux: `git clone https://github.com/gerardroche/sublime-molokai.git ~/.config/sublime-text-3/Packages/molokai`
+    * OS X: `git clone https://github.com/gerardroche/sublime-molokai.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/molokai`
+    * Windows: `git clone https://github.com/gerardroche/sublime-molokai.git %APPDATA%\Sublime/ Text/ 3/Packages/molokai`
 3. The features listed above will be available the next time Sublime Text is started.
 
 ## Contributing

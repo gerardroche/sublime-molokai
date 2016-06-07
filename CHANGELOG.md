@@ -6,5 +6,4 @@
 
 ## 0.1.0
 
-* Initial release; basic starter colorscheme
-
+* Initial release

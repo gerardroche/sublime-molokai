@@ -66,8 +66,7 @@
     hi pmenuthumb      guifg=#66d9ef
 
     hi precondit       guifg=#a6e22e               gui=bold
-    " hi preproc         guifg=#a6e22e
-    hi preproc          guifg=#a6e22e                   gui=none
+    hi preproc         guifg=#a6e22e               gui=none
     hi question        guifg=#66d9ef
     hi repeat          guifg=#f92672               gui=bold
     hi search          guifg=#000000 guibg=#ffe792
@@ -76,14 +75,12 @@
     hi signcolumn      guifg=#a6e22e guibg=#232526
     hi specialchar     guifg=#f92672               gui=bold
     hi specialcomment  guifg=#7e8e91               gui=bold
-    " hi special         guifg=#66d9ef guibg=bg      gui=italic
     hi special          guifg=#66d9ef                   gui=italic
     if has("spell")
-        hi spellbad    guisp=#ff0000 gui=undercurl
-        " hi spellcap    guisp=#7070f0 gui=undercurl
+        hi spellbad    guifg=#ff0000 gui=undercurl
         hi spellcap    guifg=#7070f0 gui=undercurl
-        hi spelllocal  guisp=#70f0f0 gui=undercurl
-        hi spellrare   guisp=#ffffff gui=undercurl
+        hi spelllocal  guifg=#70f0f0 gui=undercurl
+        hi spellrare   guifg=#ffffff gui=undercurl
     endif
     hi statement       guifg=#f92672               gui=bold
     hi statusline      guifg=#455354 guibg=fg
@@ -105,8 +102,7 @@
     hi wildmenu        guifg=#66d9ef guibg=#000000
 
     hi tablinefill     guifg=#1b1d1e guibg=#1b1d1e
-    " hi tabline         guibg=#1b1d1e guifg=#808080 gui=none
-    hi tabline          guifg=#808080   guibg=#1b1d1e   gui=none
+    hi tabline         guifg=#808080 guibg=#1b1d1e gui=none
 
     if s:molokai_original == 1
        " hi normal          guifg=#f8f8f2 guibg=#272822

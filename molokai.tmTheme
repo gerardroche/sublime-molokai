@@ -1008,6 +1008,8 @@
             <string>linter.error</string>
             <key>settings</key>
             <dict>
+                <key>foreground</key>
+                <string>#ff0000</string>
                 <key>fontStyle</key>
                 <string>undercurl</string>
             </dict>
@@ -1017,6 +1019,8 @@
             <string>spellbad</string>
             <key>settings</key>
             <dict>
+                <key>foreground</key>
+                <string>#ff0000</string>
                 <key>fontStyle</key>
                 <string>undercurl</string>
             </dict>
@@ -1026,6 +1030,8 @@
             <string>sublimelinter.mark.error</string>
             <key>settings</key>
             <dict>
+                <key>foreground</key>
+                <string>#ff0000</string>
                 <key>fontStyle</key>
                 <string>undercurl</string>
             </dict>
@@ -1068,6 +1074,8 @@
             <string>spelllocal</string>
             <key>settings</key>
             <dict>
+                <key>foreground</key>
+                <string>#70f0f0</string>
                 <key>fontStyle</key>
                 <string>undercurl</string>
             </dict>
@@ -1077,6 +1085,8 @@
             <string>spellrare</string>
             <key>settings</key>
             <dict>
+                <key>foreground</key>
+                <string>#ffffff</string>
                 <key>fontStyle</key>
                 <string>undercurl</string>
             </dict>

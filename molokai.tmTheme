@@ -1485,7 +1485,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gutter.scm.add</string>
+            <string>gutter.scm.added</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1503,7 +1503,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gutter.scm.change</string>
+            <string>gutter.scm.changed</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1521,7 +1521,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gutter.scm.delete</string>
+            <string>gutter.scm.deleted</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>

@@ -174,11 +174,11 @@ hi link variable                                        identifier
 hi link variable.other.global                           type
 
 " Git Gutter (based on https://github.com/airblade/vim-gitgutter)
-hi gutter.scm.add         guifg=#009900
-hi gutter.scm.change      guifg=#bbbb00
-hi gutter.scm.delete      guifg=#ff2222
-hi gutter.scm.ignored     guifg=#565656
-hi gutter.scm.untracked   guifg=#565656
+hi gutter.scm.added         guifg=#009900
+hi gutter.scm.changed       guifg=#bbbb00
+hi gutter.scm.deleted       guifg=#ff2222
+hi gutter.scm.ignored       guifg=#565656
+hi gutter.scm.untracked     guifg=#565656
 
 " Linter (based on https://github.com/scrooloose/syntastic)
 hi link linter.error         spellbad
@@ -188,10 +188,10 @@ hi link linter.warning       spellcap
 " {{{ Plugins
 
     " Git Gutter https://github.com/jisaacks/gitgutter
-    hi link markup.changed.git_gutter               gutter.scm.change
-    hi link markup.deleted.git_gutter               gutter.scm.delete
+    hi link markup.changed.git_gutter               gutter.scm.changed
+    hi link markup.deleted.git_gutter               gutter.scm.deleted
     hi link markup.ignored.git_gutter               gutter.scm.ignored
-    hi link markup.inserted.git_gutter              gutter.scm.add
+    hi link markup.inserted.git_gutter              gutter.scm.added
     hi link markup.untracked.git_gutter             gutter.scm.untracked
 
     " Linter https://github.com/SublimeLinter/SublimeLinter3

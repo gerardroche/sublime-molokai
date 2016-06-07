@@ -548,7 +548,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>invalid</string>
+            <string>gutter.linter.error</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -559,7 +559,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>linter.gutter.mark</string>
+            <string>invalid</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>

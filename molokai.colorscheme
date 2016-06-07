@@ -182,7 +182,7 @@ hi gutter.scm.untracked     guifg=#565656
 
 " Linter (based on https://github.com/scrooloose/syntastic)
 hi link linter.error         spellbad
-hi link linter.gutter.mark   error
+hi link gutter.linter.error  error
 hi link linter.warning       spellcap
 
 " {{{ Plugins
@@ -195,7 +195,7 @@ hi link linter.warning       spellcap
     hi link markup.untracked.git_gutter             gutter.scm.untracked
 
     " Linter https://github.com/SublimeLinter/SublimeLinter3
-    hi link sublimelinter.gutter-mark               linter.gutter.mark
+    hi link sublimelinter.gutter-mark               gutter.linter.error
     hi link sublimelinter.mark.error                linter.error
     hi link sublimelinter.mark.warning              linter.warning
 

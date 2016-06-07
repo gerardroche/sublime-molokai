@@ -187,7 +187,40 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>boolean, constant.language.boolean, constant.numeric, source.json constant.language</string>
+            <string>boolean</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ae81ff</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>constant.language.boolean</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ae81ff</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>constant.numeric</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ae81ff</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.json constant.language</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -227,7 +260,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>conditional, constant.character, keyword.operator.type, meta.function storage.modifier, storage.modifier.extends, storage.modifier.implements, storage.type.class, support.function.construct</string>
+            <string>conditional</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -238,7 +271,95 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>constant, support.constant</string>
+            <string>constant.character</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>keyword.operator.type</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.function storage.modifier</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>storage.modifier.extends</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>storage.modifier.implements</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>storage.type.class</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>support.function.construct</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>constant</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ae81ff</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>support.constant</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -291,7 +412,16 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>delimiter, punctuation.section.embedded.begin</string>
+            <string>delimiter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8f8f8f</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>punctuation.section.embedded.begin</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -353,7 +483,40 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>error, invalid, linter.gutter.mark, sublimelinter.gutter-mark</string>
+            <string>error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e6db74</string>
+                <key>background</key>
+                <string>#1e0010</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>invalid</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e6db74</string>
+                <key>background</key>
+                <string>#1e0010</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>linter.gutter.mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e6db74</string>
+                <key>background</key>
+                <string>#1e0010</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -419,7 +582,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>function, support.function</string>
+            <string>function</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -428,7 +591,25 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>identifier, variable</string>
+            <string>support.function</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a6e22e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>identifier</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fd971f</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>variable</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -512,7 +693,34 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>keyword.operator, operator, punctuation.definition.variable, storage.modifier.reference</string>
+            <string>keyword.operator</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>operator</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>punctuation.definition.variable</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>storage.modifier.reference</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -570,7 +778,62 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>keyword.control.import, keyword.other.namespace, keyword.other.use, preproc, source.json punctuation.definition.array, source.json punctuation.definition.dictionary</string>
+            <string>keyword.control.import</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a6e22e</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>keyword.other.namespace</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a6e22e</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>keyword.other.use</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a6e22e</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>preproc</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a6e22e</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.json punctuation.definition.array</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a6e22e</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.json punctuation.definition.dictionary</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -645,7 +908,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>punctuation.definition.array.begin, punctuation.definition.array.end, punctuation.definition.begin, punctuation.definition.end, punctuation.definition.parameters.begin, punctuation.definition.parameters.end, punctuation.section, special</string>
+            <string>punctuation.definition.array.begin</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -656,7 +919,84 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>linter.error, spellbad, sublimelinter.mark.error</string>
+            <string>punctuation.definition.array.end</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>punctuation.definition.begin</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>punctuation.definition.end</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>punctuation.definition.parameters.begin</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>punctuation.definition.parameters.end</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>punctuation.section</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>special</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>linter.error</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -665,7 +1005,47 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>linter.warning, spellcap, sublimelinter.mark.warning</string>
+            <string>spellbad</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>undercurl</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>undercurl</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>linter.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7070f0</string>
+                <key>fontStyle</key>
+                <string>undercurl</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>spellcap</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7070f0</string>
+                <key>fontStyle</key>
+                <string>undercurl</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -716,7 +1096,18 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>storageclass, support.class.builtin</string>
+            <string>storageclass</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fd971f</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>support.class.builtin</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -765,7 +1156,62 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>constant.language.null, meta.array support.function.construct, storage.modifier, storage.type, type, variable.other.global</string>
+            <string>constant.language.null</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.array support.function.construct</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>storage.modifier</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>storage.type</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>type</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>none</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>variable.other.global</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -866,7 +1312,18 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>normal, support.function.magic</string>
+            <string>normal</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8f8f2</string>
+                <key>background</key>
+                <string>#1b1d1e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>support.function.magic</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -953,7 +1410,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gutter.scm.add, markup.inserted.git_gutter</string>
+            <string>gutter.scm.add</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -962,7 +1419,16 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gutter.scm.change, markup.changed.git_gutter</string>
+            <string>markup.inserted.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#009900</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>gutter.scm.change</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -971,7 +1437,16 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gutter.scm.delete, markup.deleted.git_gutter</string>
+            <string>markup.changed.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#bbbb00</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>gutter.scm.delete</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -980,7 +1455,34 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>gutter.scm.ignored, markup.ignored.git_gutter, markup.untracked.git_gutter</string>
+            <string>markup.deleted.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ff2222</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>gutter.scm.ignored</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#565656</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.ignored.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#565656</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.untracked.git_gutter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>

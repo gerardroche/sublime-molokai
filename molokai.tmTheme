@@ -353,7 +353,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>error, invalid, linter.gutter-mark, sublimelinter.gutter-mark</string>
+            <string>error, invalid, linter.gutter.mark, sublimelinter.gutter-mark</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -953,7 +953,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>git.gutter.add, markup.inserted.git_gutter</string>
+            <string>gutter.scm.add, markup.inserted.git_gutter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -962,7 +962,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>git.gutter.change, markup.changed.git_gutter</string>
+            <string>gutter.scm.change, markup.changed.git_gutter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -971,7 +971,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>git.gutter.delete, markup.deleted.git_gutter</string>
+            <string>gutter.scm.delete, markup.deleted.git_gutter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -980,7 +980,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>git.gutter.ignored, markup.ignored.git_gutter, markup.untracked.git_gutter</string>
+            <string>gutter.scm.ignored, markup.ignored.git_gutter, markup.untracked.git_gutter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -989,7 +989,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>git.gutter.untracked</string>
+            <string>gutter.scm.untracked</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>

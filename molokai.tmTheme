@@ -4,7 +4,7 @@
 
     <!--
 
-    Do not edit; @generated via .colorscheme file.
+    Do not edit; @generated via colorscheme 0.2.0.
 
     -->
 
@@ -578,6 +578,15 @@
                 <string>#465457</string>
                 <key>background</key>
                 <string>#000000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>entity.name.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a6e22e</string>
             </dict>
         </dict>
         <dict>

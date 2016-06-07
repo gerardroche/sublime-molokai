@@ -136,6 +136,7 @@ hi link constant.character                      specialchar
 hi link constant.language.boolean               boolean
 hi link constant.language.null                  type
 hi link constant.numeric                        number
+hi link entity.name.tag                         function
 hi link invalid                                 error
 hi link keyword.control.import                  preproc
 hi link keyword.operator                        operator

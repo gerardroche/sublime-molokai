@@ -2,20 +2,20 @@
 
 " Settings {{{
 
+    hi activeguide      guifg=#7fb11b
     hi background                       guibg=#1b1d1e
-    hi foreground       guifg=#f8f8f2
-    hi invisibles       guifg=#3b3a32
-    hi caret            guifg=#f8f8f0
-    hi linehighlight    guibg=#293739
-    hi brackets         guifg=#f8f8f2a5                 gui=underline
     hi bracketcontents  guifg=#f8f8f2a5                 gui=underline
-    hi tags                                             gui=stippled_underline
+    hi brackets         guifg=#f8f8f2a5                 gui=underline
+    hi caret            guifg=#f8f8f0
     hi findhighlight    guifg=#000000   guibg=#ffe792
+    hi foreground       guifg=#f8f8f2
     hi gutter           guifg=#465457
+    hi invisibles       guifg=#3b3a32
+    hi linehighlight    guibg=#293739
     hi selection        guibg=#403d3d
     hi selectionborder  guifg=#1c1c1c
     hi stackguide       guifg=#635f2d
-    hi activeguide      guifg=#7fb11b
+    hi tags                                             gui=stippled_underline
 
 " }}}
 
@@ -128,46 +128,44 @@
 
 " }}}
 
-hi link constant.character                      specialchar
-hi link constant.language.boolean               boolean
-hi link constant.language.null                  type
-hi link constant.numeric                        number
-hi link entity.name.tag                         function
-hi link invalid                                 error
-hi link keyword.control.import                  preproc
-hi link keyword.operator                        operator
-hi link keyword.operator.type                   keyword
-hi link keyword.other.namespace                 preproc
-hi link keyword.other.use                       preproc
-hi link meta.array support.function.construct   type
-hi link meta.function storage.modifier          keyword
-hi link punctuation.definition.array.begin      special
-hi link punctuation.definition.array.end        special
-hi link punctuation.definition.begin            special
-hi link punctuation.definition.end              special
-hi link punctuation.definition.parameters.begin special
-hi link punctuation.definition.parameters.end   special
-hi link punctuation.definition.variable         operator
-hi link punctuation.section                     special
-hi link punctuation.section.embedded.begin      delimiter
-hi link storage.modifier                        type
-hi link storage.modifier.extends                keyword
-hi link storage.modifier.implements             keyword
-hi link storage.modifier.reference              operator
-hi link storage.type                            type
-hi link storage.type.class                      keyword
-hi link support.class.builtin                   storageclass
-hi link support.constant                        constant
-hi link support.function                        function
-hi link support.function.construct              keyword
-hi link support.function.magic                  normal
-hi link variable                                identifier
-hi link variable.other.global                   type
-
-" JSON
+hi link constant.character                              specialchar
+hi link constant.language.boolean                       boolean
+hi link constant.language.null                          type
+hi link constant.numeric                                number
+hi link entity.name.tag                                 function
+hi link invalid                                         error
+hi link keyword.control.import                          preproc
+hi link keyword.operator                                operator
+hi link keyword.operator.type                           keyword
+hi link keyword.other.namespace                         preproc
+hi link keyword.other.use                               preproc
+hi link meta.array support.function.construct           type
+hi link meta.function storage.modifier                  keyword
+hi link punctuation.definition.array.begin              special
+hi link punctuation.definition.array.end                special
+hi link punctuation.definition.begin                    special
+hi link punctuation.definition.end                      special
+hi link punctuation.definition.parameters.begin         special
+hi link punctuation.definition.parameters.end           special
+hi link punctuation.definition.variable                 operator
+hi link punctuation.section                             special
+hi link punctuation.section.embedded.begin              delimiter
 hi link source.json constant.language                   number
 hi link source.json punctuation.definition.array        preproc
 hi link source.json punctuation.definition.dictionary   preproc
+hi link storage.modifier                                type
+hi link storage.modifier.extends                        keyword
+hi link storage.modifier.implements                     keyword
+hi link storage.modifier.reference                      operator
+hi link storage.type                                    type
+hi link storage.type.class                              keyword
+hi link support.class.builtin                           storageclass
+hi link support.constant                                constant
+hi link support.function                                function
+hi link support.function.construct                      keyword
+hi link support.function.magic                          normala
+hi link variable                                        identifier
+hi link variable.other.global                           type
 
 " Git Gutter (based on https://github.com/airblade/vim-gitgutter)
 hi gutter.scm.add         guifg=#009900

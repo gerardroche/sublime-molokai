@@ -163,7 +163,7 @@ hi link support.class.builtin                           storageclass
 hi link support.constant                                constant
 hi link support.function                                function
 hi link support.function.construct                      keyword
-hi link support.function.magic                          normala
+hi link support.function.magic                          normal
 hi link variable                                        identifier
 hi link variable.other.global                           type
 

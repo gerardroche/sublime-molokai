@@ -187,7 +187,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>boolean, constant.language.boolean</string>
+            <string>boolean, constant.language.boolean, constant.numeric, source.json constant.language</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -207,11 +207,13 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>constant.numeric, number, source.json constant.language</string>
+            <string>number</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#ae81ff</string>
+                <key>fontStyle</key>
+                <string>none</string>
             </dict>
         </dict>
         <dict>
@@ -225,7 +227,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>conditional, constant.character, keyword.operator.type, storage.modifier.extends, storage.modifier.implements</string>
+            <string>conditional, constant.character, keyword.operator.type, meta.function storage.modifier, storage.modifier.extends, storage.modifier.implements, storage.type.class, support.function.construct</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -289,7 +291,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>delimiter</string>
+            <string>delimiter, punctuation.section.embedded.begin</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -417,7 +419,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>entity.name.function, entity.other, function, support.function</string>
+            <string>function, support.function</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -763,7 +765,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>constant.language.null, storage.modifier, storage.type, type, variable.other.global</string>
+            <string>constant.language.null, meta.array support.function.construct, storage.modifier, storage.type, type, variable.other.global</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>

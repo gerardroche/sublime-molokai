@@ -34,7 +34,7 @@ hi activeguide                  guifg=#7fb11b
 
     hi boolean         guifg=#ae81ff               gui=none
     hi character       guifg=#e6db74
-    hi number          guifg=#ae81ff
+    hi number          guifg=#ae81ff               gui=none
     hi string          guifg=#e6db74
     hi conditional     guifg=#f92672               gui=bold
     hi constant        guifg=#ae81ff               gui=bold
@@ -161,8 +161,9 @@ hi link constant.character                      specialchar
 hi link constant.numeric                        number
 hi link support.constant                        constant
 hi link support.function                        function
-hi link entity.name.function                    function
-hi link entity.other                            function
+hi link support.function.construct              keyword
+hi link meta.array support.function.construct   type
+hi link meta.function storage.modifier          keyword
 hi link support.class.builtin                   storageclass
 hi link support.function.magic                  normal
 hi link keyword.other.use                       preproc
@@ -174,12 +175,14 @@ hi link variable                                identifier
 hi link variable.other.global                   type
 hi link punctuation.definition.variable         operator
 hi link storage.type                            type
+hi link storage.type.class                      keyword
 hi link storage.modifier                        type
 hi link storage.modifier.extends                keyword
 hi link storage.modifier.implements             keyword
 hi link storage.modifier.reference              operator
 hi link invalid                                 error
 hi link punctuation.section                     special
+hi link punctuation.section.embedded.begin      delimiter
 hi link punctuation.definition.begin            special
 hi link punctuation.definition.end              special
 hi link punctuation.definition.array.begin      special

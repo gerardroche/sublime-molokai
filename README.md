@@ -1,10 +1,8 @@
 # gerardroche/sublime-molokai
 
-A plugin for Sublime Text 3.
+A port of [tomasr/molokai](https://github.com/tomasr/molokai)) for Sublime Text 3.
 
-Port of Molokai color scheme for Vim ([tomasr/molokai](https://github.com/tomasr/molokai))
-
-**This is in alpha release. If you are interested in this colorscheme, please open issues and give feedback. Ideally I would also like to add a UI theme specific for the color scheme.**
+![Screenshot](screenshot_php.png)
 
 ## Overview
 
@@ -15,11 +13,11 @@ Port of Molokai color scheme for Vim ([tomasr/molokai](https://github.com/tomasr
 
 ## Installation
 
-### Package Control installation
+### [Package Control](https://packagecontrol.io) installation
 
-This is the preferred method of installation is via [Package Control](https://packagecontrol.io).
+This is the preferred method of installation.
 
-Search for "molokai" by me (gerardroche/molokai).
+Search for "molokai".
 
 ### Manual installation
 

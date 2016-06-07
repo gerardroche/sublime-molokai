@@ -144,15 +144,15 @@ hi activeguide                  guifg=#7fb11b
 " }}}
 
 " gitgutter (based on https://github.com/airblade/vim-gitgutter)
-hi git.gutter.add         guifg=#009900
-hi git.gutter.change      guifg=#bbbb00
-hi git.gutter.delete      guifg=#ff2222
-hi git.gutter.ignored     guifg=#565656
-hi git.gutter.untracked   guifg=#565656
+hi gutter.scm.add         guifg=#009900
+hi gutter.scm.change      guifg=#bbbb00
+hi gutter.scm.delete      guifg=#ff2222
+hi gutter.scm.ignored     guifg=#565656
+hi gutter.scm.untracked   guifg=#565656
 
 " linter
 hi link linter.error         spellbad
-hi link linter.gutter-mark   error
+hi link linter.gutter.mark   error
 hi link linter.warning       spellcap
 
 hi link constant.character                      specialchar
@@ -197,13 +197,13 @@ hi link source.json punctuation.definition.dictionary   preproc
 
 " gitgutter
 " https://github.com/jisaacks/gitgutter
-hi link markup.changed.git_gutter               git.gutter.change
-hi link markup.deleted.git_gutter               git.gutter.delete
-hi link markup.ignored.git_gutter               git.gutter.ignored
-hi link markup.inserted.git_gutter              git.gutter.add
-hi link markup.untracked.git_gutter             git.gutter.untracked
+hi link markup.changed.git_gutter               gutter.scm.change
+hi link markup.deleted.git_gutter               gutter.scm.delete
+hi link markup.ignored.git_gutter               gutter.scm.ignored
+hi link markup.inserted.git_gutter              gutter.scm.add
+hi link markup.untracked.git_gutter             gutter.scm.untracked
 
 " sublimelinter
-hi link sublimelinter.gutter-mark               linter.gutter-mark
+hi link sublimelinter.gutter-mark               linter.gutter.mark
 hi link sublimelinter.mark.error                linter.error
 hi link sublimelinter.mark.warning              linter.warning

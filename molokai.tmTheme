@@ -4,7 +4,7 @@
 
     <!--
 
-    Do not edit; @generated via colorscheme 0.2.0.
+    Do not edit; @generated via colorscheme 0.3.0.
 
     -->
 
@@ -48,8 +48,10 @@
                 <string>#1c1c1c</string>
                 <key>stackGuide</key>
                 <string>#635f2d</string>
+                <key>tagsForeground</key>
+                <string>#f8f8f2a5</string>
                 <key>tagsOptions</key>
-                <string>stippled_underline</string>
+                <string>underline</string>
             </dict>
         </dict>
 
@@ -73,17 +75,6 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>bracketcontents</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f8f8f2a5</string>
-                <key>fontStyle</key>
-                <string>underline</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
             <string>bracketcontentsforeground</string>
             <key>settings</key>
             <dict>
@@ -96,17 +87,6 @@
             <string>bracketcontentsoptions</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>underline</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>brackets</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f8f8f2a5</string>
                 <key>fontStyle</key>
                 <string>underline</string>
             </dict>
@@ -223,11 +203,11 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>tags</string>
+            <string>tagsforeground</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>stippled_underline</string>
+                <key>foreground</key>
+                <string>#f8f8f2a5</string>
             </dict>
         </dict>
         <dict>
@@ -236,7 +216,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>stippled_underline</string>
+                <string>underline</string>
             </dict>
         </dict>
         <dict>

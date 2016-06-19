@@ -4,10 +4,8 @@
 
     hi activeguide                  guifg=#7fb11b
     hi background                                   guibg=#1b1d1e
-    hi bracketcontents              guifg=#f8f8f2a5                 gui=underline
     hi bracketcontentsforeground    guifg=#f8f8f2a5
     hi bracketcontentsoptions                                       gui=underline
-    hi brackets                     guifg=#f8f8f2a5                 gui=underline
     hi bracketsforeground           guifg=#f8f8f2a5
     hi bracketsoptions                                              gui=underline
     hi caret                        guifg=#f8f8f0
@@ -20,8 +18,8 @@
     hi selection                                    guibg=#403d3d
     hi selectionborder              guifg=#1c1c1c
     hi stackguide                   guifg=#635f2d
-    hi tags                                                         gui=stippled_underline
-    hi tagsoptions                                                  gui=stippled_underline
+    hi tagsforeground               guifg=#f8f8f2a5
+    hi tagsoptions                                                  gui=underline
 
 " }}}
 

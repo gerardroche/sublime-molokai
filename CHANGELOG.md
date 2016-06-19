@@ -1,5 +1,9 @@
 # gerardroche/sublime-molokai changelog
 
+## 0.3.0
+
+* Minor tweaks and fixes
+
 ## 0.2.0
 
 * Minor tweaks and fixes

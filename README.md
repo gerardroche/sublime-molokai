@@ -1,4 +1,4 @@
-# gerardroche/sublime-molokai
+# molokai
 
 [![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime-molokai)
@@ -22,11 +22,9 @@ A port of [tomasr/molokai](https://github.com/tomasr/molokai)) for Sublime Text 
 
 ## Installation
 
-### [Package Control](https://packagecontrol.io) installation
+### Package Control installation
 
-This is the preferred method of installation.
-
-Search for "molokai".
+The preferred method of installation is [Package Control].
 
 ### Manual installation
 
@@ -48,3 +46,5 @@ See [CHANGELOG.md](CHANGELOG.md).
 ## License
 
 Released under the [BSD 3-Clause License](LICENSE).
+
+[Package Control]: https://packagecontrol.io/browse/authors/gerardroche

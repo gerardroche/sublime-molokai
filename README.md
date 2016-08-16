@@ -4,12 +4,13 @@
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime-molokai)
 [![License](https://img.shields.io/badge/license-BSD--3-blue.svg?style=flat)](https://raw.githubusercontent.com/gerardroche/sublime-molokai/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-molokai.svg?style=flat)](https://github.com/gerardroche/sublime-molokai/stargazers)
-
 [![Sublime version](https://img.shields.io/badge/sublime-v3-lightgrey.svg?style=flat)](https://sublimetext.com)
 [![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-molokai.svg?label=release&style=flat&maxAge=2592000)](https://github.com/gerardroche/sublime-molokai/tags)
 [![Downloads](https://img.shields.io/packagecontrol/dt/molokai.svg?style=flat&maxAge=2592000)](https://packagecontrol.io/packages/molokai)
 
 A port of [tomasr/molokai](https://github.com/tomasr/molokai)) for Sublime Text 3.
+
+## THIS PROJECT IS NO LONGER MAINTAINED!
 
 ![Screenshot](screenshot_php.png)
 

@@ -8,7 +8,7 @@
 [![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-molokai.svg?label=release&style=flat&maxAge=2592000)](https://github.com/gerardroche/sublime-molokai/tags)
 [![Downloads](https://img.shields.io/packagecontrol/dt/molokai.svg?style=flat&maxAge=2592000)](https://packagecontrol.io/packages/molokai)
 
-A port of [tomasr/molokai](https://github.com/tomasr/molokai)) for Sublime Text 3.
+A port of [tomasr/molokai](https://github.com/tomasr/molokai) for Sublime Text 3.
 
 ![Screenshot](screenshot_php.png)
 

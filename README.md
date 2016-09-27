@@ -10,8 +10,6 @@
 
 A port of [tomasr/molokai](https://github.com/tomasr/molokai)) for Sublime Text 3.
 
-## THIS PROJECT IS NO LONGER MAINTAINED!
-
 ![Screenshot](screenshot_php.png)
 
 ## Overview

@@ -5,3 +5,8 @@
 #   git config --global core.excludesfile ~/.gitignore_global
 
 /tmp/
+
+*.colorscheme
+
+# Sublime Text
+*.sublime-workspace

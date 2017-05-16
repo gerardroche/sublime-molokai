@@ -1,17 +1,25 @@
-# gerardroche/sublime-molokai changelog
+# Molokai changelog
 
-## 0.4.0
+All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-* THIS PROJECT IS NO LONGER MAINTAINED!
+## Unreleased
 
-## 0.3.0
+### Added
+
+* Added: Monokai theme
+
+## 0.4.0 - 2016-08-16
 
 * Minor tweaks and fixes
 
-## 0.2.0
+## 0.3.0 - 2016-06-20
 
 * Minor tweaks and fixes
 
-## 0.1.0
+## 0.2.0 - 2016-06-07
+
+* Minor tweaks and fixes
+
+## 0.1.0 - 2016-05-18
 
 * Initial release

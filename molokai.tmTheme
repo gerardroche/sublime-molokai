@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plist version="1.0">
 <dict>
-
-    <!--
-
-    Do not edit; @generated via colorscheme 0.3.0.
-
-    -->
-
     <key>name</key>
-    <string>molokai</string>
-
+    <string>Molokai</string>
     <key>settings</key>
     <array>
         <dict>
@@ -54,7 +46,6 @@
                 <string>underline</string>
             </dict>
         </dict>
-
         <dict>
             <key>scope</key>
             <string>activeguide</string>

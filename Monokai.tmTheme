@@ -845,7 +845,28 @@
                 <string>#e6db74</string>
             </dict>
         </dict>
-
+         <dict>
+            <key>scope</key>
+            <string>string.search</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#000000</string>
+                <key>background</key>
+                <string>#C4BE89</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>string.search.occurrence</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#000000</string>
+                <key>background</key>
+                <string>#FFE792</string>
+            </dict>
+        </dict>
     </array>
 </dict>
 </plist>

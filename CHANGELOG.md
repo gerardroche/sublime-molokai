@@ -2,11 +2,12 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## Unreleased
+## 1.0.0 - 2017-05-17
 
 ### Added
 
 * Added: Monokai theme
+* Added: NeoVintageous search highlighting support
 
 ## 0.4.0 - 2016-08-16
 

@@ -39,7 +39,7 @@
                 <key>highlightForeground</key>
                 <string>#272822</string>
                 <key>lineHighlight</key>
-                <string>#3e3d32</string>
+                <string>#3e3d32aa</string>
                 <key>selection</key>
                 <string>#75715e</string>
                 <key>selectionBorder</key>

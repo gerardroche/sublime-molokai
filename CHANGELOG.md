@@ -2,6 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.0.1 - 2017-06-04
+
+* Fixed: line highlight should use opacity
+
 ## 1.0.0 - 2017-05-17
 
 ### Added

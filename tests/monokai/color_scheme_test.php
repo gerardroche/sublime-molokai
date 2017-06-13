@@ -553,69 +553,69 @@ abstract class name_c {
 
         parent::a();
 //      ^ fg=#fd971f fs=italic
-//            ^^ fg=#f92672 fs=
+//            ^^ fg=#f8f8f2 fs=
 //              ^ fg=#66d9ef fs=
 //               ^^^ fg=#f8f8f2 fs=
 
 
         self::class;
 //      ^ fg=#fd971f fs=italic
-//          ^^ fg=#f92672 fs=
+//          ^^ fg=#f8f8f2 fs=
 //            ^^^^^^ fg=#f8f8f2 fs=
 
         self::$pubS;
 //      ^ fg=#fd971f fs=italic
-//          ^^ fg=#f92672 fs=
+//          ^^ fg=#f8f8f2 fs=
 //            ^^^^^^ fg=#f8f8f2 fs=
 
         self::a();
 //      ^ fg=#fd971f fs=italic
-//          ^^ fg=#f92672 fs=
+//          ^^ fg=#f8f8f2 fs=
 //            ^ fg=#66d9ef fs=
 //             ^^^ fg=#f8f8f2 fs=
 
         static::$pubS;
 //      ^ fg=#fd971f fs=italic
-//            ^^ fg=#f92672 fs=
+//            ^^ fg=#f8f8f2 fs=
 //              ^^^^^^ fg=#f8f8f2 fs=
 
         static::a();
 //      ^ fg=#fd971f fs=italic
-//            ^^ fg=#f92672 fs=
+//            ^^ fg=#f8f8f2 fs=
 //              ^ fg=#66d9ef fs=
 //               ^^^ fg=#f8f8f2 fs=
 
         $this->pub;
 //      ^ fg=#fd971f fs=italic
-//           ^^ fg=#f92672 fs=
+//           ^^ fg=#f8f8f2 fs=
 //             ^^^^ fg=#f8f8f2 fs=
 
         $this->a();
 //      ^ fg=#fd971f fs=italic
-//           ^^ fg=#f92672 fs=
+//           ^^ fg=#f8f8f2 fs=
 //             ^ fg=#66d9ef fs=
 //              ^^^ fg=#f8f8f2 fs=
 
         $this->a()->c()->d();
 //      ^ fg=#fd971f fs=italic
-//           ^^ fg=#f92672 fs=
+//           ^^ fg=#f8f8f2 fs=
 //             ^ fg=#66d9ef fs=
 //              ^^ fg=#f8f8f2 fs=
-//                ^^ fg=#f92672 fs=
+//                ^^ fg=#f8f8f2 fs=
 //                  ^ fg=#66d9ef fs=
 //                   ^^ fg=#f8f8f2 fs=
-//                     ^^ fg=#f92672 fs=
+//                     ^^ fg=#f8f8f2 fs=
 //                       ^ fg=#66d9ef fs=
 //                        ^^^ fg=#f8f8f2 fs=
 
         NAME_C::$pubS;
 //      ^ fg=#66d9ef fs=italic
-//            ^^ fg=#f92672 fs=
+//            ^^ fg=#f8f8f2 fs=
 //              ^^^^^^ fg=#f8f8f2 fs=
 
         NAME_C::CLASS_CONSTANT;
 //      ^ fg=#66d9ef fs=italic
-//            ^^ fg=#f92672 fs=
+//            ^^ fg=#f8f8f2 fs=
 //              ^ fg=#ae81ff fs=
 //                            ^ fg=#f8f8f2 fs=
 
@@ -642,19 +642,19 @@ abstract class name_c {
 
         $i->a();
 //      ^^ fg=#f8f8f2 fs=
-//        ^^ fg=#f92672 fs=
+//        ^^ fg=#f8f8f2 fs=
 //          ^ fg=#66d9ef fs=
 //           ^^^ fg=#f8f8f2 fs=
 
         $i::a();
 //      ^^ fg=#f8f8f2 fs=
-//        ^^ fg=#f92672 fs=
+//        ^^ fg=#f8f8f2 fs=
 //          ^ fg=#66d9ef fs=
 //           ^^^ fg=#f8f8f2 fs=
 
         $i::$pubS;
 //      ^^ fg=#f8f8f2 fs=
-//        ^^ fg=#f92672 fs=
+//        ^^ fg=#f8f8f2 fs=
 //          ^^^^^^ fg=#f8f8f2 fs=
 
     }

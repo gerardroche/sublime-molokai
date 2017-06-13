@@ -32,16 +32,16 @@ class DefaultController extends Controller
 //             ^ fg=#f92672
 //               ^ fg=#f92672
 //                ^ fg=#fd971f
-//                    ^^ fg=#f92672
+//                    ^^ fg=#f8f8f2
 //                      ^ fg=#fd971f
             ->getRepository('AppBundle:Post')
-//          ^^ fg=#f92672
+//          ^^ fg=#f8f8f2
 //              ^ fg=#fd971f
 //                         ^ fg=#66d9ef
 //                          ^^^^^^^^^^^^^^^^ fg=#e6db74
 //                                          ^ fg=#66d9ef
             ->findLatest();
-//          ^^ fg=#f92672
+//          ^^ fg=#f8f8f2
 //              ^ fg=#fd971f
 
         return $this->render('default/index.html.twig', array(

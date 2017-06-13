@@ -1,4 +1,4 @@
-COLOR SCHEME TEST "User/color-schemes/Monokai (Dark).tmTheme" "Markdown"
+COLOR SCHEME TEST "molokai/Monokai.tmTheme" "Markdown"
 
    //
 //^ fg=#f8f8f2 bg=#272822 fs=

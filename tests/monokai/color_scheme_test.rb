@@ -1,4 +1,4 @@
-COLOR SCHEME TEST "User/color-schemes/Monokai (Dark).tmTheme" "Ruby"
+COLOR SCHEME TEST "molokai/Monokai.tmTheme" "Ruby"
 
       g = Greeter.new('hello')
 # ^ fg=#f8f8f2 bg=#272822 fs=

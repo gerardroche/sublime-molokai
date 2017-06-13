@@ -1,4 +1,4 @@
-COLOR SCHEME TEST "User/color-schemes/Monokai (Dark).tmTheme" "JavaScript"
+COLOR SCHEME TEST "molokai/Monokai.tmTheme" "JavaScript"
 
       //
 // ^ fg=#f8f8f2 bg=#272822 fs=

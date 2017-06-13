@@ -1,4 +1,4 @@
-<?php // COLOR SCHEME TEST "User/color-schemes/Monokai (Dark).tmTheme" "PHP"
+<?php // COLOR SCHEME TEST "molokai/Monokai.tmTheme" "PHP"
 
       //
 // ^ fg=#f8f8f2 bg=#272822 fs=

@@ -124,7 +124,7 @@
             <key>name</key>
             <string>Keyword</string>
             <key>scope</key>
-            <string>keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word</string>
+            <string>keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word, punctuation.accessor</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -143,8 +143,6 @@
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>Storage</string>
             <key>scope</key>
             <string>storage</string>
             <key>settings</key>
@@ -156,10 +154,8 @@
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>Storage type</string>
             <key>scope</key>
-            <string>storage.type</string>
+            <string>storage.type, meta.class variable.language</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -172,7 +168,7 @@
             <key>name</key>
             <string>Entity name</string>
             <key>scope</key>
-            <string>entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)</string>
+            <string>entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label), support.other.namespace.use-as.php</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -248,7 +244,7 @@
             <key>name</key>
             <string>Function call</string>
             <key>scope</key>
-            <string>variable.function</string>
+            <string>variable.function, meta.function-call - meta.function-call.object - meta.function-call.static</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -867,6 +863,31 @@
                 <string>#FFE792</string>
             </dict>
         </dict>
+
+        <!--
+            These are quick and dirty fixes for changes in the new PHP syntax
+        -->
+
+        <dict><key>scope</key>
+            <string>meta.class.php meta.block.php meta.function-call.static.php variable.function.php</string>
+            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+        <dict><key>scope</key>
+            <string>punctuation.section.group.begin.php</string>
+            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+        <dict><key>scope</key>
+            <string>punctuation.section.group.end.php</string>
+            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+        <dict><key>scope</key>
+            <string>meta.class.php meta.block.php meta.function-call.method.php variable.function.php</string>
+            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+        <dict><key>scope</key>
+            <string>meta.function-call.php meta.group.php variable.other.php</string>
+            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+        <dict><key>scope</key>
+            <string>meta.class.php meta.block.php constant.class.php</string>
+            <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
+
+
     </array>
 </dict>
 </plist>

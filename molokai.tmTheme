@@ -1566,6 +1566,19 @@
                 <string>#FFE792</string>
             </dict>
         </dict>
+
+        <!--
+            These are quick and dirty fixes for changes in the new PHP syntax
+        -->
+
+        <dict><key>scope</key>
+            <string>punctuation.accessor.php</string>
+            <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+
+        <dict><key>scope</key>
+            <string>meta.class.php meta.block.php meta.function-call.method.php variable.function.php</string>
+            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+
     </array>
 </dict>
 </plist>

@@ -1,7 +1,8 @@
 COLOR SCHEME TEST "molokai/Monokai.tmTheme" "Markdown"
-
-   //
-//^ fg=#f8f8f2 bg=#272822 fs=
+        // This test is testing
+        // the whitespace before
+        // the comment.
+// ^ fg=#f8f8f2 bg=#272822 fs=
 
 Headers
 

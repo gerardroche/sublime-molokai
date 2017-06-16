@@ -1,22 +1,16 @@
-COLOR SCHEME TEST "molokai/Monokai.tmTheme" "Python"  # flake8: noqa
-
-      #
+# COLOR SCHEME TEST "molokai/Monokai.tmTheme" "Python"  # flake8: noqa
+    # This test is testing
+    # the whitespace before
+    # the comment.
 # ^ fg=#f8f8f2 bg=#272822 fs=
 
 @requires_authorization
 # ^ fg=#f8f8f2 fs=
-def somefunc(param1='', param2=0):
-# ^ fg=#66d9ef
-# ^ bg=#272822
-# ^ fs=italic
-# ^ fg=#66d9ef bg=#272822 fs=italic
-# ^ fg=#66d9ef bg=#272822
+def abc(param1='', param2=0):
 # ^ fg=#66d9ef fs=italic
-# ^ bg=#272822 fs=italic
-# ^ fg=#66d9ef fs=italic
-#       ^ fg=#a6e22e fs=
-#                   ^^ fg=#e6db74 fs=
-#                              ^ fg=#ae81ff fs=
+#   ^ fg=#a6e22e fs=
+#              ^^ fg=#e6db74 fs=
+#                         ^ fg=#ae81ff fs=
     r'''A docstring'''
     if param1 > param2: # interesting
 #   ^ fg=#f92672 fs=
@@ -35,14 +29,20 @@ def somefunc(param1='', param2=0):
 #                                        ^^ fg=#f92672 fs=
 #                                           ^ fg=#ae81ff fs=
 
-class SomeClass:
+_AB = 'ab'
+# ^ fg=#f8f8f2 fs=
+#   ^ fg=#f92672 fs=
+#     ^^^ fg=#e6db74 fs=
+
+class PassMe():
 # ^ fg=#66d9ef fs=italic
-#       ^ fg=#a6e22e fs=
+#     ^ fg=#a6e22e fs=
+#           ^^^ fg=#f8f8f2 fs=
     pass
 #   ^ fg=#f92672 fs=
 
 >>> message = '''interpreter
-#^^ fg=#f92672 fs=
+# ^ fg=#f92672 fs=
 #           ^ fg=#f92672 fs=
 #             ^^^^^^^^^^^^^^ fg=#e6db74 fs=
 ... prompt'''

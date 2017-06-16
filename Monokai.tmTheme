@@ -462,141 +462,25 @@
                 <string>underline</string>
             </dict>
         </dict>
-        <dict>
-            <key>scope</key>
-            <string>gutter.scm.added</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#a6e22e</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>markup.inserted</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#a6e22e</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>markup.inserted.git_gutter</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#a6e22e</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>gutter.scm.changed</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fd971f</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>markup.changed</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fd971f</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>markup.changed.git_gutter</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fd971f</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>gutter.scm.deleted</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f92672</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>markup.deleted</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f92672</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>markup.deleted.git_gutter</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f92672</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>gutter.scm.ignored</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#75715e</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>markup.ignored</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#75715e</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>markup.ignored.git_gutter</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#75715e</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>gutter.scm.untracked</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#75715e</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>markup.untracked</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#75715e</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>markup.untracked.git_gutter</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#75715e</string>
-            </dict>
-        </dict>
+
+        <!-- SCM -->
+
+        <dict><key>scope</key><string>gutter.scm.added</string>             <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+        <dict><key>scope</key><string>markup.inserted</string>              <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+        <dict><key>scope</key><string>markup.inserted.git_gutter</string>   <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+        <dict><key>scope</key><string>gutter.scm.changed</string>           <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+        <dict><key>scope</key><string>markup.changed</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+        <dict><key>scope</key><string>markup.changed.git_gutter</string>    <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+        <dict><key>scope</key><string>gutter.scm.deleted</string>           <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+        <dict><key>scope</key><string>markup.deleted</string>               <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+        <dict><key>scope</key><string>markup.deleted.git_gutter</string>    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+        <dict><key>scope</key><string>gutter.scm.ignored</string>           <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+        <dict><key>scope</key><string>markup.ignored</string>               <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+        <dict><key>scope</key><string>markup.ignored.git_gutter</string>    <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+        <dict><key>scope</key><string>gutter.scm.untracked</string>         <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+        <dict><key>scope</key><string>markup.untracked</string>             <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+        <dict><key>scope</key><string>markup.untracked.git_gutter</string>  <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+
         <dict>
             <key>scope</key>
             <string>constant.numeric.line-number.find-in-files - match</string>
@@ -615,73 +499,17 @@
                 <string>#e6db74</string>
             </dict>
         </dict>
-        <dict>
-            <key>scope</key>
-            <string>message.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f92672</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>gutter.linter.mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f8f8f2</string>
-                <key>background</key>
-                <string>#f92672</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f8f8f2</string>
-                <key>background</key>
-                <string>#f92672</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>linter.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f92672</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f92672</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>linter.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fd971f</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fd971f</string>
-            </dict>
-        </dict>
+
+        <!-- Lint -->
+
+        <dict><key>scope</key><string>message.error</string>                <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+        <dict><key>scope</key><string>gutter.linter.mark</string>           <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>background</key><string>#f92672</string></dict></dict>
+        <dict><key>scope</key><string>sublimelinter.gutter-mark</string>    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>background</key><string>#f92672</string></dict></dict>
+        <dict><key>scope</key><string>linter.error</string>                 <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+        <dict><key>scope</key><string>sublimelinter.mark.error</string>     <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+        <dict><key>scope</key><string>linter.warning</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+        <dict><key>scope</key><string>sublimelinter.mark.warning</string>   <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+
         <dict>
             <key>scope</key>
             <string>text.html.markdown punctuation</string>
@@ -841,56 +669,24 @@
                 <string>#e6db74</string>
             </dict>
         </dict>
-         <dict>
-            <key>scope</key>
-            <string>string.search</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#000000</string>
-                <key>background</key>
-                <string>#C4BE89</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>string.search.occurrence</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#000000</string>
-                <key>background</key>
-                <string>#FFE792</string>
-            </dict>
-        </dict>
 
-        <!--
-            These are quick and dirty fixes for changes in the new PHP syntax
-        -->
+        <!-- Search -->
 
-        <dict><key>scope</key>
-            <string>meta.class.php meta.block.php meta.function-call.static.php variable.function.php</string>
-            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-        <dict><key>scope</key>
-            <string>punctuation.section.group.begin.php</string>
-            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-        <dict><key>scope</key>
-            <string>punctuation.section.group.end.php</string>
-            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-        <dict><key>scope</key>
-            <string>meta.class.php meta.block.php meta.function-call.method.php variable.function.php</string>
-            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-        <dict><key>scope</key>
-            <string>meta.function-call.php meta.group.php variable.other.php</string>
-            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-        <dict><key>scope</key>
-            <string>meta.class.php meta.block.php constant.class.php</string>
-            <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
+        <dict><key>scope</key><string>string.search</string>                <key>settings</key><dict><key>foreground</key><string>#000000</string><key>background</key><string>#C4BE89</string></dict></dict>
+        <dict><key>scope</key><string>string.search.occurrence</string>     <key>settings</key><dict><key>foreground</key><string>#000000</string><key>background</key><string>#FFE792</string></dict></dict>
 
-        <dict><key>scope</key><string>source.php meta.function-call - meta.function-call.object - meta.function-call.static</string>   <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-        <dict><key>scope</key><string>support.other.namespace.use-as.php</string>           <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-        <dict><key>scope</key><string>meta.class.php variable.language</string>             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-        <dict><key>scope</key><string>punctuation.accessor.php</string>                     <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+        <!-- These are quick and dirty fixes for changes in the new PHP syntax -->
+
+        <dict><key>scope</key> <string>meta.class.php meta.block.php meta.function-call.static.php variable.function.php</string>   <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+        <dict><key>scope</key> <string>punctuation.section.group.begin.php</string>                                                 <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+        <dict><key>scope</key> <string>punctuation.section.group.end.php</string>                                                   <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+        <dict><key>scope</key> <string>meta.class.php meta.block.php meta.function-call.method.php variable.function.php</string>   <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+        <dict><key>scope</key> <string>meta.function-call.php meta.group.php variable.other.php</string>                            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+        <dict><key>scope</key><string>meta.class.php meta.block.php constant.class.php</string>                                     <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
+        <dict><key>scope</key><string>source.php meta.function-call - meta.function-call.object - meta.function-call.static</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
+        <dict><key>scope</key><string>support.other.namespace.use-as.php</string>                                                   <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+        <dict><key>scope</key><string>meta.class.php variable.language</string>                                                     <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
+        <dict><key>scope</key><string>punctuation.accessor.php</string>                                                             <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 
     </array>
 </dict>

@@ -124,7 +124,7 @@
             <key>name</key>
             <string>Keyword</string>
             <key>scope</key>
-            <string>keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word, punctuation.accessor</string>
+            <string>keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -155,7 +155,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>storage.type, meta.class variable.language</string>
+            <string>storage.type</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -168,7 +168,7 @@
             <key>name</key>
             <string>Entity name</string>
             <key>scope</key>
-            <string>entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label), support.other.namespace.use-as.php</string>
+            <string>entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -244,7 +244,7 @@
             <key>name</key>
             <string>Function call</string>
             <key>scope</key>
-            <string>variable.function, meta.function-call - meta.function-call.object - meta.function-call.static</string>
+            <string>variable.function</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -887,6 +887,10 @@
             <string>meta.class.php meta.block.php constant.class.php</string>
             <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 
+        <dict><key>scope</key><string>source.php meta.function-call - meta.function-call.object - meta.function-call.static</string>   <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
+        <dict><key>scope</key><string>support.other.namespace.use-as.php</string>           <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+        <dict><key>scope</key><string>meta.class.php variable.language</string>             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
+        <dict><key>scope</key><string>punctuation.accessor.php</string>                     <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 
     </array>
 </dict>

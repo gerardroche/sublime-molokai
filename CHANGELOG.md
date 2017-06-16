@@ -2,6 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.0.3 - 2017-06-16
+
+* Fixed: Python and other syntaxes (regressions)
+
 ## 1.0.2 - 2017-06-15
 
 * Fixed: PHP

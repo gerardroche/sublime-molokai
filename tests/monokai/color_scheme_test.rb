@@ -18,7 +18,7 @@ class Greeter
 #   ^^ fg=#f8f8f2 fs=
     #     ^ fg=#f92672 fs=
     #       ^ fg=#66d9ef fs=
-    #           ^ fg=#f92672 fs=
+    #           ^ fg=#f8f8f2 fs=
     #            ^ fg=#f8f8f2 fs=
   end
   # ^ fg=#f92672 fs=
@@ -38,10 +38,11 @@ end
 g = Greeter.new("world")
 # ^ fg=#f92672 fs=
 #   ^ fg=#66d9ef fs=italic
-#          ^^^^ fg=#f92672 fs=
+#          ^ fg=#f8f8f2 fs=
+#           ^^^ fg=#f92672 fs=
 #              ^ fg=#f8f8f2 fs=
 #               ^^^^^^^ fg=#e6db74 fs=
 #                      ^ fg=#f8f8f2 fs=
 g.salute
-#^ fg=#f92672 fs=
+#^ fg=#f8f8f2 fs=
 # ^ fg=#f8f8f2 fs=

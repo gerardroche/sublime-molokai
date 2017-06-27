@@ -4,7 +4,13 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 ## Unreleased
 
+### Added
+
 * Added: Spell check misspelling underline color
+
+### Fixed
+
+* Fixed: NeoVintageous search highlighting
 
 ## 1.0.3 - 2017-06-16
 

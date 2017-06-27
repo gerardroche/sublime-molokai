@@ -2,6 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## Unreleased
+
+* Added: Spell check misspelling underline color
+
 ## 1.0.3 - 2017-06-16
 
 * Fixed: Python and other syntaxes (regressions)

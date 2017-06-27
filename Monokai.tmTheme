@@ -30,6 +30,7 @@
                 <key>stackGuide</key>                   <string>#3e3d32</string>
                 <key>tagsForeground</key>               <string>#f8f8f2a5</string>
                 <key>tagsOptions</key>                  <string>stippled_underline</string>
+                <key>misspelling</key>                  <string>#f92672</string>
             </dict>
         </dict>
 

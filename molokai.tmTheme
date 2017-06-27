@@ -44,6 +44,8 @@
                 <string>#f8f8f2a5</string>
                 <key>tagsOptions</key>
                 <string>underline</string>
+                <key>misspelling</key>
+                <string>#ff0000</string>
             </dict>
         </dict>
         <dict>

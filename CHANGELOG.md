@@ -2,6 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+### Added
+
+* Added: Monokai - MiniMap border
+
 ### Changed
 
 * Changed: Monokai - Improved find highlighting

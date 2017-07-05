@@ -4,6 +4,7 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 ### Added
 
+* Added: Monokai - Accent color for Adaptive themes
 * Added: Monokai - MiniMap border
 
 ### Changed

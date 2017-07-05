@@ -16,6 +16,7 @@
 
                 <key>misspelling</key>                  <string>#f92672</string>
                 <key>minimapBorder</key>                <string>#e6db74</string>
+                <key>accent</key>                       <string>#fd971f</string>
 
                 <key>gutter</key>                       <string>#272822</string>
                 <key>gutterForeground</key>             <string>#75715e</string>

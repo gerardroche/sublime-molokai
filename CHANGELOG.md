@@ -4,6 +4,7 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 ### Changed
 
+* Changed: Monokai - Improved find highlighting
 * Changed: Monokai - Improved indent guides
 
 ### Fixed

@@ -2,6 +2,8 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+* Fixed: Several Monokai font styles
+
 ## 1.1.0 - 2017-06-27
 
 ### Added

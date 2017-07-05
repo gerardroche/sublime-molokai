@@ -2,6 +2,8 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.2.0 - 2017-07-05
+
 ### Added
 
 * Added: Monokai - Accent color for Adaptive themes

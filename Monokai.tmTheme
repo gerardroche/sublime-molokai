@@ -189,6 +189,10 @@
 <dict><key>scope</key><string>meta.class.php variable.language</string>                                                     <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>punctuation.accessor.php</string>                                                             <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 
+<!-- Vim emulation block cursor support -->
+
+<dict><key>scope</key><string>insert_mode_cursor</string><key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+
     </array>
 </dict>
 </plist>

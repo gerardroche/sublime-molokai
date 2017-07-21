@@ -1,6 +1,6 @@
-# Molokai
+# sublime-molokai
 
-[![Minimum Sublime version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg)](https://sublimetext.com) [![Downloads](https://img.shields.io/packagecontrol/dt/molokai.svg)](https://packagecontrol.io/packages/molokai) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-molokai.svg)](https://github.com/gerardroche/sublime-molokai/stargazers) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-molokai.svg?label=stable)](https://github.com/gerardroche/sublime-molokai/tags) [![Source Code](https://img.shields.io/badge/source-github-blue.svg)](https://github.com/gerardroche/sublime-molokai) [![Author](https://img.shields.io/badge/author-gerardroche-blue.svg)](https://twitter.com/gerardroche)
+[![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-molokai.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-molokai/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-molokai.svg?style=flat-square)](https://github.com/gerardroche/sublime-molokai/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/molokai.svg?style=flat-square)](https://packagecontrol.io/packages/molokai) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
 
 Port of [vim-molokai](https://github.com/tomasr/molokai) color scheme and a monokai classic variation for Sublime Text.
 

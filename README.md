@@ -1,16 +1,16 @@
-# sublime-molokai
+# molokai
 
 [![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-molokai.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-molokai/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-molokai.svg?style=flat-square)](https://github.com/gerardroche/sublime-molokai/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/molokai.svg?style=flat-square)](https://packagecontrol.io/packages/molokai) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
 
-Port of [vim-molokai](https://github.com/tomasr/molokai) color scheme and a monokai classic variation for Sublime Text.
-
-**Molokai**
-
-![Screenshot](screenshot-molokai.png)
+Sublime Text color schemes inspired by Monokai and [Molokai](https://github.com/tomasr/molokai).
 
 **Monokai**
 
-![Screenshot](screenshot-monokai.png)
+![Monokai Screenshot](res/screenshot-monokai.png)
+
+**Molokai**
+
+![Monokai Screenshot](res/screenshot-molokai.png)
 
 ## OVERVIEW
 
@@ -34,52 +34,19 @@ The preferred method of installation is [Package Control](https://packagecontrol
     * Windows: `git clone https://github.com/gerardroche/sublime-molokai.git %APPDATA%\Sublime/ Text/ 3/Packages/molokai`
 3. Done!
 
-## CONTRIBUTING
+## Palette
 
-Please open issues, even for what might seem like a trivial issues. The package has a test suite for testing the color schemes so it's easy enough to fix issues.
+### Monokai
 
-Your issue reports and pull requests are always welcome.
+![Monokai palette](res/monokai-palette.png)
 
-### The color specs
-
-#### Molokai
-
-![Molokai Color Palette](res/molokai/colors.png)
-
-#### Monokai
-
-![Monokai Color Palette](res/monokai/colors.png)
-
-**Background Tones**
-
-Base03 | Base02
--------|-------
-\#272822 |\#3e3d32
-![](res/monokai/272822.png) | ![](res/monokai/3e3d32.png)
-
-**Content Tones**
-
-Base01 | Base0 | Base1
--------|-------|------
-\#75715e | \#f8f8f2 | ?
-![](res/monokai/75715e.png) | ![](res/monokai/f8f8f2.png) | ?
-
-**Accents**
+bg | bg_h | bg_c | fg
+-- | ---- | ---- | --
+\#272822 |\#3e3d32 | \#75715e | \#f8f8f2
 
 Yellow | Orange | Red | Magenta | Violet | Blue | Cyan | Green
 -------|--------|-----|---------|--------|------|------|------
 \#e6db74 | \#fd971f | \#f92672 | \#fd5ff0 | \#ae81ff | \#66d9ef | \#a1efe4 | \#a6e22e
-![](res/monokai/e6db74.png) | ![](res/monokai/fd971f.png) | ![](res/monokai/f92672.png) | ![](res/monokai/fd5ff0.png) | ![](res/monokai/ae81ff.png) | ![](res/monokai/66d9ef.png) | ![](res/monokai/a1efe4.png) | ![](res/monokai/a6e22e.png)
-
-**Usage**
-
-*Usage is modelled on the [altercation/solarized](http://ethanschoonover.com/solarized) scheme.*
-
-* Base 03 - background
-* Base 02 - background highlights
-* Base 01 - comments / secondary content
-* Base 0 - body text / default code / primary content
-* Base 1 - optional emphasised content
 
 ### Resources
 
@@ -88,6 +55,10 @@ Yellow | Orange | Red | Magenta | Violet | Blue | Cyan | Green
 * Atom: [kevinsawicki/monokai](https://github.com/kevinsawicki/monokai)
 * Studio: [studiostyl.es/brighter-monokai-variant](http://studiostyl.es/schemes/brighter-monokai-variant)
 * Terminal: [Mayccoll/Gogh](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md#monokai-dark)
+
+## CONTRIBUTING
+
+Your issue reports and pull requests are always welcome.
 
 ## CHANGELOG
 

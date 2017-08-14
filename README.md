@@ -15,6 +15,7 @@ Sublime Text color schemes inspired by Monokai and [Molokai](https://github.com/
 ## OVERVIEW
 
 * [Installation](#installation)
+* [Palette](#palette)
 * [Contributing](#contributing)
 * [License](#license)
 

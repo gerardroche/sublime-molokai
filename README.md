@@ -40,14 +40,6 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 ![Monokai palette](res/monokai-palette.png)
 
-bg | bg_h | bg_c | fg
--- | ---- | ---- | --
-\#272822 |\#3e3d32 | \#75715e | \#f8f8f2
-
-Yellow | Orange | Red | Magenta | Violet | Blue | Cyan | Green
--------|--------|-----|---------|--------|------|------|------
-\#e6db74 | \#fd971f | \#f92672 | \#fd5ff0 | \#ae81ff | \#66d9ef | \#a1efe4 | \#a6e22e
-
 ### Resources
 
 * Emacs: [oneKelvinSmith/monokai-emacs](https://github.com/oneKelvinSmith/monokai-emacs)

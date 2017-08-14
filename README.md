@@ -16,7 +16,6 @@ Sublime Text color schemes inspired by Monokai and [Molokai](https://github.com/
 
 * [Installation](#installation)
 * [Contributing](#contributing)
-* [Changelog](#changelog)
 * [License](#license)
 
 ## INSTALLATION
@@ -59,10 +58,6 @@ Yellow | Orange | Red | Magenta | Violet | Blue | Cyan | Green
 ## CONTRIBUTING
 
 Your issue reports and pull requests are always welcome.
-
-## CHANGELOG
-
-See [CHANGELOG.md](CHANGELOG.md).
 
 ## LICENSE
 

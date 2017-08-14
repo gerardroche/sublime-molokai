@@ -53,6 +53,10 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 Your issue reports and pull requests are always welcome.
 
+### Tests
+
+The [ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit) package is used to run the tests. Install it, open the Command Palette, type "ColorSchemeUnit: Test Suite", and press Enter.
+
 ## LICENSE
 
 Released under the [BSD 3-Clause License](LICENSE).

@@ -47,6 +47,7 @@ The preferred method of installation is [Package Control](https://packagecontrol
 * Atom: [kevinsawicki/monokai](https://github.com/kevinsawicki/monokai)
 * Studio: [studiostyl.es/brighter-monokai-variant](http://studiostyl.es/schemes/brighter-monokai-variant)
 * Terminal: [Mayccoll/Gogh](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md#monokai-dark)
+* Gruvbox: [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
 
 ## CONTRIBUTING
 

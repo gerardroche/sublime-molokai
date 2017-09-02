@@ -1,6 +1,6 @@
 # molokai
 
-Sublime Text color schemes inspired by [vim-molokai](https://github.com/tomasr/molokai).
+A Sublime Text color scheme inspired by [vim-molokai](https://github.com/tomasr/molokai).
 
 [![Build Status](https://img.shields.io/travis/gerardroche/sublime-molokai/master.svg?style=flat-square)](https://travis-ci.org/gerardroche/sublime-molokai) [![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-molokai.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-molokai/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-molokai.svg?style=flat-square)](https://github.com/gerardroche/sublime-molokai/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/molokai.svg?style=flat-square)](https://packagecontrol.io/packages/molokai) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
 

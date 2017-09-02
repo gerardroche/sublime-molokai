@@ -6,7 +6,5 @@
 
 /tmp/
 
-*.colorscheme
-
 # Sublime Text
 *.sublime-workspace

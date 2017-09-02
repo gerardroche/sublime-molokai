@@ -1,23 +1,17 @@
 # molokai
 
-[![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-molokai.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-molokai/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-molokai.svg?style=flat-square)](https://github.com/gerardroche/sublime-molokai/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/molokai.svg?style=flat-square)](https://packagecontrol.io/packages/molokai) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
+Sublime Text color schemes inspired by [vim-molokai](https://github.com/tomasr/molokai).
 
-Sublime Text color schemes inspired by Monokai and [Molokai](https://github.com/tomasr/molokai).
+[![Build Status](https://img.shields.io/travis/gerardroche/sublime-molokai/master.svg?style=flat-square)](https://travis-ci.org/gerardroche/sublime-molokai) [![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-molokai.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-molokai/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-molokai.svg?style=flat-square)](https://github.com/gerardroche/sublime-molokai/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/molokai.svg?style=flat-square)](https://packagecontrol.io/packages/molokai) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
 
-**Monokai**
+* Tested using [ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit)
+* Supported plugins: [GitGutter](https://github.com/jisaacks/GitGutter), [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3), [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous)
 
-![Monokai Screenshot](res/screenshot-monokai.png)
+[ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit), which is a testing framework for Sublime Text color schemes, helps improve the quality of color schemes and prevent regressions.
 
-**Molokai**
+**The Monokai color scheme has been moved to [MonokaiFree](https://github.com/gerardroche/sublime-monokai-free).**
 
-![Monokai Screenshot](res/screenshot-molokai.png)
-
-## OVERVIEW
-
-* [Installation](#installation)
-* [Palette](#palette)
-* [Contributing](#contributing)
-* [License](#license)
+![Molokai screenshot](screenshot.png)
 
 ## INSTALLATION
 
@@ -34,28 +28,13 @@ The preferred method of installation is [Package Control](https://packagecontrol
     * Windows: `git clone https://github.com/gerardroche/sublime-molokai.git %APPDATA%\Sublime/ Text/ 3/Packages/molokai`
 3. Done!
 
-## Palette
-
-### Monokai
-
-![Monokai palette](res/monokai-palette.png)
-
-### Resources
-
-* Emacs: [oneKelvinSmith/monokai-emacs](https://github.com/oneKelvinSmith/monokai-emacs)
-* Emacs: [sjrmanning/darkokai](https://github.com/sjrmanning/darkokai) (dark variant)
-* Atom: [kevinsawicki/monokai](https://github.com/kevinsawicki/monokai)
-* Studio: [studiostyl.es/brighter-monokai-variant](http://studiostyl.es/schemes/brighter-monokai-variant)
-* Terminal: [Mayccoll/Gogh](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md#monokai-dark)
-* Gruvbox: [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
-
 ## CONTRIBUTING
 
 Your issue reports and pull requests are always welcome.
 
 ### Tests
 
-The [ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit) package is used to run the tests. Install it, open the Command Palette, type "ColorSchemeUnit: Test Suite", and press Enter.
+To run the tests: install [ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit), which a testing framework for ST color schemes, open the Command Palette, type "ColorSchemeUnit: Test Suite", and press Enter.
 
 ## LICENSE
 

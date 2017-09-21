@@ -1,0 +1,33 @@
+<!-- COLOR SCHEME TEST "molokai/molokai.tmTheme" "XML" -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!--^ fg=#66d9ef fs= -->
+<!--  ^^^^^^^ fg=#66d9ef fs= -->
+<!--         ^ fg=#f8f8f2 fs= -->
+<!--          ^^^^^ fg=#e6db74 fs= -->
+<!--                ^^^^^^^^ fg=#66d9ef fs= -->
+<!--                        ^ fg=#f8f8f2 fs= -->
+<!--                         ^^^^^^^ fg=#e6db74 fs= -->
+<!--                                ^^ fg=#7e8e91 fs= -->
+
+        <!-- This indented comment is to the preceding whitespace. -->
+<!-- ^ fg=#f8f8f2 bg=#1b1d1e fs= -->
+
+    <!-- x -->
+<!-- ^^^^^^^^^ fg=#7e8e91 fs= -->
+
+<breakfast_menu>
+<!-- ^^^^^^^^^^^ fg=#a6e22e fs= -->
+
+    <food>
+<!--^^^^^^ fg=#a6e22e fs= -->
+
+        <name>Belgian Waffles</name>
+<!--    ^^^^^^ fg=#a6e22e fs= -->
+<!--          ^^^^^^^ fg=#f8f8f2 fs= -->
+<!--                  ^^^^^^^ fg=#f8f8f2 fs= -->
+<!--                         ^^^^^^^ fg=#a6e22e fs= -->
+    </food>
+<!--^^^^^^^ fg=#a6e22e fs= -->
+
+</breakfast_menu>
+<!-- ^^^^^^^^^^^^ fg=#a6e22e fs= -->

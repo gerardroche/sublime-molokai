@@ -25,6 +25,12 @@ Close Sublime Text then download or clone this repository to a directory named `
 * OSX: `git clone https://github.com/gerardroche/sublime-molokai.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/molokai`
 * Windows: `git clone https://github.com/gerardroche/sublime-molokai.git %APPDATA%\Sublime/ Text/ 3/Packages/molokai`
 
+## ACTIVATE
+
+Go to `Menu > Preferences > Color Scheme...` and select the *Molokai* color scheme.
+
+## CONTRIBUTING
+
 ### Tests
 
 To run the tests:
@@ -34,6 +40,8 @@ To run the tests:
 * Type "ColorSchemeUnit: Test Suite" and press `Enter`
 
 ## Screenshots
+
+All screenshot code samples can found at [Screenshot Code](https://github.com/gerardroche/screenshot-code).
 
 ### PHP
 

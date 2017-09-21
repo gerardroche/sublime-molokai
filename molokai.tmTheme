@@ -8,21 +8,21 @@
 
     COLOR TABLE
 
-    SUBLCOLR    | HEX
+    SUBLCOLR    | HEX       | Alternates
 
     bg          | #1b1d1e
     bg_h        | #
-    fg          | #
-    fg_h        | #
+    fg          | #f8f8f2
+    fg_h        | #7e8e91   | #565656
 
-    yellow      | #
-    orange      | #
-    red         | #
+    yellow      | #e6db74
+    orange      | #fd971f   | bbbb00
+    red         | #f92672   | #ff2222
     magenta     | #
-    violet      | #
+    violet      | #ae81ff
     blue        | #
     cyan        | #
-    green       | #
+    green       | #a6e22e   | #009900
 
     -->
     <array>
@@ -35,10 +35,12 @@
 
                 <key>caret</key>                        <string>#f8f8f0</string>
                 <key>lineHighlight</key>                <string>#293739aa</string>
-                <key>invisibles</key>                   <string>#3b3a32</string>
 
                 <key>misspelling</key>                  <string>#ff0000</string>
+                <key>minimapBorder</key>                <string>#e6db74</string>
+                <key>accent</key>                       <string>#bbbb00</string>
 
+                <key>gutter</key>                       <string>#1b1d1e</string>
                 <key>gutterForeground</key>             <string>#465457</string>
 
                 <key>selection</key>                    <string>#403d3d</string>
@@ -47,6 +49,7 @@
                 <key>findHighlight</key>                <string>#ffe792</string>
                 <key>findHighlightForeground</key>      <string>#000000</string>
 
+                <key>guide</key>                        <string>#293739</string>
                 <key>stackGuide</key>                   <string>#635f2d</string>
                 <key>activeGuide</key>                  <string>#7fb11b</string>
 
@@ -59,154 +62,147 @@
                 <key>tagsForeground</key>               <string>#f8f8f2a5</string>
 </dict></dict>
 
-<dict><key>scope</key><string>activeguide</string>                              <key>settings</key><dict><key>foreground</key><string>#7fb11b</string></dict></dict>
-<dict><key>scope</key><string>background</string>                               <key>settings</key><dict><key>background</key><string>#1b1d1e</string></dict></dict>
-<dict><key>scope</key><string>boolean</string>                                  <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>bracketcontentsforeground</string>                <key>settings</key><dict><key>foreground</key><string>#f8f8f2a5</string></dict></dict>
-<dict><key>scope</key><string>bracketcontentsoptions</string>                   <key>settings</key><dict><key>fontStyle</key><string>underline</string></dict></dict>
-<dict><key>scope</key><string>bracketsforeground</string>                       <key>settings</key><dict><key>foreground</key><string>#f8f8f2a5</string></dict></dict>
-<dict><key>scope</key><string>bracketsoptions</string>                          <key>settings</key><dict><key>fontStyle</key><string>underline</string></dict></dict>
-<dict><key>scope</key><string>caret</string>                                    <key>settings</key><dict><key>foreground</key><string>#f8f8f0</string></dict></dict>
-<dict><key>scope</key><string>character</string>                                <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>colorcolumn</string>                              <key>settings</key><dict><key>background</key><string>#232526</string></dict></dict>
 <dict><key>scope</key><string>comment</string>                                  <key>settings</key><dict><key>foreground</key><string>#7e8e91</string></dict></dict>
-<dict><key>scope</key><string>conditional</string>                              <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
+<dict><key>scope</key><string>constant.character.escape.css</string>            <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>constant.character</string>                       <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>constant.language.boolean</string>                <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>constant.language.null</string>                   <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>constant.numeric</string>                         <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>constant.other.placeholder.c</string>             <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>constant</string>                                 <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>cursor</string>                                   <key>settings</key><dict><key>foreground</key><string>#000000</string><key>background</key><string>#f8f8f0</string></dict></dict>
-<dict><key>scope</key><string>cursorcolumn</string>                             <key>settings</key><dict><key>background</key><string>#293739</string></dict></dict>
-<dict><key>scope</key><string>cursorline</string>                               <key>settings</key><dict><key>background</key><string>#293739</string></dict></dict>
-<dict><key>scope</key><string>cursorlinenr</string>                             <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>debug</string>                                    <key>settings</key><dict><key>foreground</key><string>#bca3a3</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>define</string>                                   <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-<dict><key>scope</key><string>delimiter</string>                                <key>settings</key><dict><key>foreground</key><string>#8f8f8f</string></dict></dict>
-<dict><key>scope</key><string>diffadd</string>                                  <key>settings</key><dict><key>background</key><string>#13354a</string></dict></dict>
-<dict><key>scope</key><string>diffchange</string>                               <key>settings</key><dict><key>foreground</key><string>#89807d</string><key>background</key><string>#4c4745</string></dict></dict>
-<dict><key>scope</key><string>diffdelete</string>                               <key>settings</key><dict><key>foreground</key><string>#960050</string><key>background</key><string>#1e0010</string></dict></dict>
-<dict><key>scope</key><string>difftext</string>                                 <key>settings</key><dict><key>background</key><string>#4c4745</string><key>fontStyle</key><string>italic,bold</string></dict></dict>
-<dict><key>scope</key><string>directory</string>                                <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>bold</string></dict></dict>
+<dict><key>scope</key><string>entity.name.constant.preprocessor.c</string>      <key>settings</key><dict><key>foreground</key><string>#c4be89</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>entity.name.tag.css</string>                      <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
+<dict><key>scope</key><string>entity.name.tag.wildcard.css</string>             <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>entity.name.tag</string>                          <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-<dict><key>scope</key><string>error</string>                                    <key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#1e0010</string></dict></dict>
-<dict><key>scope</key><string>errormsg</string>                                 <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>background</key><string>#232526</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>exception</string>                                <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>findhighlight</string>                            <key>settings</key><dict><key>foreground</key><string>#000000</string><key>background</key><string>#ffe792</string></dict></dict>
-<dict><key>scope</key><string>findhighlightforeground</string>                  <key>settings</key><dict><key>foreground</key><string>#000000</string></dict></dict>
-<dict><key>scope</key><string>float</string>                                    <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
-<dict><key>scope</key><string>foldcolumn</string>                               <key>settings</key><dict><key>foreground</key><string>#465457</string><key>background</key><string>#000000</string></dict></dict>
-<dict><key>scope</key><string>folded</string>                                   <key>settings</key><dict><key>foreground</key><string>#465457</string><key>background</key><string>#000000</string></dict></dict>
-<dict><key>scope</key><string>foreground</string>                               <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>function</string>                                 <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-<dict><key>scope</key><string>gutter.linter.error</string>                      <key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#1e0010</string></dict></dict>
-<dict><key>scope</key><string>gutter.scm.added</string>                         <key>settings</key><dict><key>foreground</key><string>#009900</string></dict></dict>
-<dict><key>scope</key><string>gutter.scm.changed</string>                       <key>settings</key><dict><key>foreground</key><string>#bbbb00</string></dict></dict>
-<dict><key>scope</key><string>gutter.scm.deleted</string>                       <key>settings</key><dict><key>foreground</key><string>#ff2222</string></dict></dict>
-<dict><key>scope</key><string>gutter.scm.ignored</string>                       <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
-<dict><key>scope</key><string>gutter.scm.untracked</string>                     <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
-<dict><key>scope</key><string>gutterforeground</string>                         <key>settings</key><dict><key>foreground</key><string>#465457</string></dict></dict>
-<dict><key>scope</key><string>icursor</string>                                  <key>settings</key><dict><key>foreground</key><string>#000000</string><key>background</key><string>#f8f8f0</string></dict></dict>
-<dict><key>scope</key><string>identifier</string>                               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
-<dict><key>scope</key><string>incsearch</string>                                <key>settings</key><dict><key>foreground</key><string>#c4be89</string><key>background</key><string>#000000</string></dict></dict>
-<dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#1e0010</string></dict></dict>
-<dict><key>scope</key><string>invisibles</string>                               <key>settings</key><dict><key>foreground</key><string>#3b3a32</string></dict></dict>
+<dict><key>scope</key><string>entity.other.attribute-name.class.css</string>    <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>entity.other.attribute-name.css</string>          <key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>entity.other.attribute-name.id.css</string>       <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+<dict><key>scope</key><string>entity.other.attribute-name.localname.xml</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
+<dict><key>scope</key><string>entity.other.pseudo-class.css</string>            <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>entity.other.pseudo-element.css</string>          <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>invalid.deprecated</string>                       <key>settings</key><dict><key>background</key><string>#f92672bb</string><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>background</key><string>#ff2222bb</string><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>keyword.control.at-rule.font-face.css</string>    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>keyword.control.at-rule.media.css</string>        <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>keyword.control.import.c</string>                 <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>bold</string></dict></dict>
+<dict><key>scope</key><string>keyword.control.import.define.c</string>          <key>settings</key><dict><key>foreground</key><string>#c4be89</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>keyword.control.import</string>                   <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>keyword.operator.arithmetic.c</string>            <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>keyword.operator.assignment.c</string>            <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>keyword.operator.attribute-selector.css</string>  <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>keyword.operator.c</string>                       <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>keyword.operator.comparison.c</string>            <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>keyword.operator.type</string>                    <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>keyword.operator</string>                         <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword.other.namespace</string>                  <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>keyword.other.use</string>                        <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>keyword</string>                                  <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>label</string>                                    <key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>linehighlight</string>                            <key>settings</key><dict><key>background</key><string>#293739</string></dict></dict>
-<dict><key>scope</key><string>linenr</string>                                   <key>settings</key><dict><key>foreground</key><string>#465457</string><key>background</key><string>#232526</string></dict></dict>
-<dict><key>scope</key><string>linter.error</string>                             <key>settings</key><dict><key>foreground</key><string>#ff0000</string><key>fontStyle</key><string>undercurl</string></dict></dict>
-<dict><key>scope</key><string>linter.warning</string>                           <key>settings</key><dict><key>foreground</key><string>#7070f0</string><key>fontStyle</key><string>undercurl</string></dict></dict>
-<dict><key>scope</key><string>macro</string>                                    <key>settings</key><dict><key>foreground</key><string>#c4be89</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#bbbb00</string></dict></dict>
-<dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#ff2222</string></dict></dict>
-<dict><key>scope</key><string>markup.ignored.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
-<dict><key>scope</key><string>markup.inserted.git_gutter</string>               <key>settings</key><dict><key>foreground</key><string>#009900</string></dict></dict>
-<dict><key>scope</key><string>markup.untracked.git_gutter</string>              <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
-<dict><key>scope</key><string>matchparen</string>                               <key>settings</key><dict><key>foreground</key><string>#000000</string><key>background</key><string>#fd971f</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>meta.array support.function.construct</string>    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>meta.attribute-selector.css punctuation.definition.entity.css</string>    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>meta.function storage.modifier</string>           <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>modemsg</string>                                  <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>moremsg</string>                                  <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>nontext</string>                                  <key>settings</key><dict><key>foreground</key><string>#465457</string></dict></dict>
-<dict><key>scope</key><string>normal</string>                                   <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>background</key><string>#1b1d1e</string></dict></dict>
-<dict><key>scope</key><string>number</string>                                   <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>operator</string>                                 <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
-<dict><key>scope</key><string>pmenu</string>                                    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>background</key><string>#000000</string></dict></dict>
-<dict><key>scope</key><string>pmenusbar</string>                                <key>settings</key><dict><key>background</key><string>#080808</string></dict></dict>
-<dict><key>scope</key><string>pmenusel</string>                                 <key>settings</key><dict><key>background</key><string>#808080</string></dict></dict>
-<dict><key>scope</key><string>pmenuthumb</string>                               <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-<dict><key>scope</key><string>precondit</string>                                <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>preproc</string>                                  <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>meta.preprocessor.c</string>                      <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>bold</string></dict></dict>
+<dict><key>scope</key><string>meta.tag.preprocessor.xml entity.name.tag.xml</string>                    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
+<dict><key>scope</key><string>meta.tag.preprocessor.xml punctuation.definition.tag.begin.xml</string>   <key>settings</key><dict><key>foreground</key><string>#7e8e91</string></dict></dict>
+<dict><key>scope</key><string>meta.tag.preprocessor.xml punctuation.definition.tag.end.xml</string>     <key>settings</key><dict><key>foreground</key><string>#7e8e91</string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.array.begin</string>       <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.array.end</string>         <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.begin</string>             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.end</string>               <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>punctuation.definition.group.begin.css</string>   <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>punctuation.definition.group.end.css</string>     <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.parameters.begin</string>  <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.parameters.end</string>    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>punctuation.definition.tag.begin.xml</string>     <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+<dict><key>scope</key><string>punctuation.definition.tag.end.xml</string>       <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.variable</string>          <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.section.block.begin.c</string>        <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>punctuation.section.block.end.c</string>          <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>punctuation.section.brackets.begin.c</string>     <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>punctuation.section.brackets.end.c</string>       <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>punctuation.section.embedded.begin</string>       <key>settings</key><dict><key>foreground</key><string>#8f8f8f</string></dict></dict>
+<dict><key>scope</key><string>punctuation.section.group.begin.c</string>        <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>punctuation.section.group.end.c</string>          <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>punctuation.section.property-list.css</string>    <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>punctuation.section</string>                      <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>question</string>                                 <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-<dict><key>scope</key><string>repeat</string>                                   <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>search</string>                                   <key>settings</key><dict><key>foreground</key><string>#000000</string><key>background</key><string>#ffe792</string></dict></dict>
-<dict><key>scope</key><string>selection</string>                                <key>settings</key><dict><key>background</key><string>#403d3d</string></dict></dict>
-<dict><key>scope</key><string>selectionborder</string>                          <key>settings</key><dict><key>foreground</key><string>#1c1c1c</string></dict></dict>
-<dict><key>scope</key><string>signcolumn</string>                               <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>background</key><string>#232526</string></dict></dict>
+<dict><key>scope</key><string>punctuation.separator.combinator.css</string>     <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>source.json constant.language</string>            <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>source.json punctuation.definition.array</string> <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>source.json punctuation.definition.dictionary</string>    <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>special</string>                                  <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>specialchar</string>                              <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>specialcomment</string>                           <key>settings</key><dict><key>foreground</key><string>#7e8e91</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>specialkey</string>                               <key>settings</key><dict><key>foreground</key><string>#465457</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>spellbad</string>                                 <key>settings</key><dict><key>foreground</key><string>#ff0000</string><key>fontStyle</key><string>undercurl</string></dict></dict>
-<dict><key>scope</key><string>spellcap</string>                                 <key>settings</key><dict><key>foreground</key><string>#7070f0</string><key>fontStyle</key><string>undercurl</string></dict></dict>
-<dict><key>scope</key><string>spelllocal</string>                               <key>settings</key><dict><key>foreground</key><string>#70f0f0</string><key>fontStyle</key><string>undercurl</string></dict></dict>
-<dict><key>scope</key><string>spellrare</string>                                <key>settings</key><dict><key>foreground</key><string>#ffffff</string><key>fontStyle</key><string>undercurl</string></dict></dict>
-<dict><key>scope</key><string>stackguide</string>                               <key>settings</key><dict><key>foreground</key><string>#635f2d</string></dict></dict>
-<dict><key>scope</key><string>statement</string>                                <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>statuslinenc</string>                             <key>settings</key><dict><key>foreground</key><string>#808080</string><key>background</key><string>#080808</string></dict></dict>
+<dict><key>scope</key><string>source.json punctuation.definition.dictionary</string>                    <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>storage.modifier.extends</string>                 <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>storage.modifier.implements</string>              <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>storage.modifier.reference</string>               <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>storage.modifier</string>                         <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>storage.type.class</string>                       <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>storage.type</string>                             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>storageclass</string>                             <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>string.search.occurrence</string>                 <key>settings</key><dict><key>foreground</key><string>#1b1d1e</string><key>background</key><string>#FFE792</string></dict></dict>
 <dict><key>scope</key><string>string.search</string>                            <key>settings</key><dict><key>foreground</key><string>#1b1d1e</string><key>background</key><string>#C4BE89</string></dict></dict>
 <dict><key>scope</key><string>string</string>                                   <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>structure</string>                                <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-<dict><key>scope</key><string>sublimelinter.gutter-mark</string>                <key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#1e0010</string></dict></dict>
-<dict><key>scope</key><string>sublimelinter.mark.error</string>                 <key>settings</key><dict><key>foreground</key><string>#ff0000</string><key>fontStyle</key><string>undercurl</string></dict></dict>
-<dict><key>scope</key><string>sublimelinter.mark.warning</string>               <key>settings</key><dict><key>foreground</key><string>#7070f0</string><key>fontStyle</key><string>undercurl</string></dict></dict>
 <dict><key>scope</key><string>support.class.builtin</string>                    <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>support.constant.media.css</string>               <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>support.constant</string>                         <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>support.function.construct</string>               <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>support.function.magic</string>                   <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>background</key><string>#1b1d1e</string></dict></dict>
 <dict><key>scope</key><string>support.function</string>                         <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-<dict><key>scope</key><string>tabline</string>                                  <key>settings</key><dict><key>foreground</key><string>#808080</string><key>background</key><string>#1b1d1e</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>tablinefill</string>                              <key>settings</key><dict><key>foreground</key><string>#1b1d1e</string><key>background</key><string>#1b1d1e</string></dict></dict>
-<dict><key>scope</key><string>tag</string>                                      <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>tagsforeground</string>                           <key>settings</key><dict><key>foreground</key><string>#f8f8f2a5</string></dict></dict>
-<dict><key>scope</key><string>tagsoptions</string>                              <key>settings</key><dict><key>fontStyle</key><string>underline</string></dict></dict>
-<dict><key>scope</key><string>title</string>                                    <key>settings</key><dict><key>foreground</key><string>#ef5939</string></dict></dict>
-<dict><key>scope</key><string>type</string>                                     <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>typedef</string>                                  <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-<dict><key>scope</key><string>underlined</string>                               <key>settings</key><dict><key>foreground</key><string>#808080</string><key>fontStyle</key><string>underline</string></dict></dict>
+<dict><key>scope</key><string>support.type.property-name.css</string>           <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>variable.function.c</string>                      <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>variable.other.global</string>                    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>variable</string>                                 <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
-<dict><key>scope</key><string>vertsplit</string>                                <key>settings</key><dict><key>foreground</key><string>#808080</string><key>background</key><string>#080808</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>visual</string>                                   <key>settings</key><dict><key>background</key><string>#403d3d</string></dict></dict>
-<dict><key>scope</key><string>visualnos</string>                                <key>settings</key><dict><key>background</key><string>#403d3d</string></dict></dict>
-<dict><key>scope</key><string>warningmsg</string>                               <key>settings</key><dict><key>foreground</key><string>#ffffff</string><key>background</key><string>#333333</string><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>wildmenu</string>                                 <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>background</key><string>#000000</string></dict></dict>
+
+
+<!-- Markup -->
+
+<dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#bbbb00</string></dict></dict>
+<dict><key>scope</key><string>markup.changed</string>                           <key>settings</key><dict><key>foreground</key><string>#bbbb00</string></dict></dict>
+<dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#ff2222</string></dict></dict>
+<dict><key>scope</key><string>markup.deleted</string>                           <key>settings</key><dict><key>foreground</key><string>#ff2222</string></dict></dict>
+<dict><key>scope</key><string>markup.ignored.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
+<dict><key>scope</key><string>markup.ignored</string>                           <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
+<dict><key>scope</key><string>markup.inserted.git_gutter</string>               <key>settings</key><dict><key>foreground</key><string>#009900</string></dict></dict>
+<dict><key>scope</key><string>markup.inserted</string>                          <key>settings</key><dict><key>foreground</key><string>#009900</string></dict></dict>
+<dict><key>scope</key><string>markup.untracked.git_gutter</string>              <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
+<dict><key>scope</key><string>markup.untracked</string>                         <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
+
+<!-- Lint -->
+
+    <!-- SublimeLinter requires these definitions to
+         be formatted like this, otherwise it will
+         create a cached versions of the color
+         scheme and use its default colors
+         for the linter -->
+
+    <dict>
+        <key>scope</key>
+        <string>sublimelinter.gutter-mark</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#e6db74</string>
+            <key>background</key>
+            <string>#1e0010</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>scope</key>
+        <string>sublimelinter.mark.error</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#ff0000</string>
+            <key>fontStyle</key>
+            <string>undercurl</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>scope</key>
+        <string>sublimelinter.mark.warning</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#7070f0</string>
+            <key>fontStyle</key>
+            <string>undercurl</string>
+        </dict>
+    </dict>
 
 <!--
     These are quick and dirty fixes for changes in the new PHP syntax

@@ -1,0 +1,398 @@
+/* COLOR SCHEME TEST "molokai/molokai.tmTheme" "CSS" */
+
+        /* This indented comment is to the preceding whitespace. */
+/* ^ fg=#f8f8f2 bg=#1b1d1e fs= */
+
+    /* x */
+/*  ^^^^^^^ fg=#7e8e91 bg=#1b1d1e fs= */
+
+    body {}
+/*  ^^^^ fg=#f92672 fs=bold */
+/*       ^^ fg=#a6e22e fs= */
+
+    #id {}
+/*  ^^^ fg=#a6e22e fs= */
+/*      ^^ fg=#a6e22e fs= */
+
+    .class {}
+/*  ^^^^^^ fg=#a6e22e fs= */
+/*         ^^ fg=#a6e22e fs= */
+
+    @font-face {}
+/*  ^^^^^^^^^^ fg=#66d9ef fs=italic */
+/*             ^^ fg=#a6e22e fs= */
+
+    @media print {}
+/*  ^^^^^^ fg=#a6e22e fs= */
+/*         ^^^^^ fg=#66d9ef fs=italic */
+/*               ^^ fg=#a6e22e fs= */
+
+    @counter-style none {}
+/*                 ^^^^ fg=#f8f8f2 bg=#ff2222bb fs= */
+
+    .x { var-deprecated- }
+/*       ^^^^ fg=#f92672 bg=#f92672bb fs=bold */
+
+    div p {}
+/*  ^^^ fg=#f92672 fs=bold */
+/*      ^ fg=#f92672 fs=bold */
+
+    p#x {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^^ fg=#a6e22e fs= */
+
+    .x#y {}
+/*  ^^^^ fg=#a6e22e fs= */
+/*       ^^ fg=#a6e22e fs= */
+
+    /* FIXME :syntax: commas should scoped by syntax so they can be specifically colored */
+    p, #q, .r {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^ fg=#f8f8f2 fs= */
+/*     ^^ fg=#a6e22e fs= */
+/*       ^ fg=#f8f8f2 fs= */
+/*         ^^ fg=#a6e22e fs= */
+
+    #x > .y:first-child {}
+/*  ^^ fg=#a6e22e fs= */
+/*     ^ fg=#66d9ef fs= */
+/*       ^^ fg=#a6e22e fs= */
+/*         ^^^^^^^^^^^^ fg=#a6e22e fs=italic */
+
+    div.x li:hover > ul {}
+/*  ^^^ fg=#f92672 fs=bold */
+/*     ^^ fg=#a6e22e fs= */
+/*        ^^ fg=#f92672 fs=bold */
+/*          ^^^^^^ fg=#a6e22e fs=italic */
+/*                 ^ fg=#66d9ef fs= */
+/*                   ^^ fg=#f92672 fs=bold */
+
+    p::before {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^^^^^^^^ fg=#a6e22e fs=italic */
+/*            ^^ fg=#a6e22e fs= */
+
+    p::after {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^^^^^^^ fg=#a6e22e fs=italic */
+
+    .x::before {}
+/*  ^^ fg=#a6e22e fs= */
+/*    ^^^^^^^^ fg=#a6e22e fs=italic */
+
+    #x::after {}
+/*  ^^ fg=#a6e22e fs= */
+/*    ^^^^^^^ fg=#a6e22e fs=italic */
+/*            ^^ fg=#a6e22e fs= */
+
+    p:not(.x) {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^^^^ fg=#a6e22e fs=italic */
+/*       ^^^^ fg=#a6e22e fs= */
+
+    p :nth-child(4n) {}
+/*  ^ fg=#f92672 fs=bold */
+/*    ^^^^^^^^^^ fg=#a6e22e fs=italic */
+/*              ^ fg=#a6e22e fs= */
+/*               ^ fg=#ae81ff fs= */
+/*                ^ fg=#f92672 fs=bold */
+/*                 ^ fg=#a6e22e fs= */
+
+    p:first-of-type + p {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^^^^^^^^^^^^^^ fg=#a6e22e fs=italic */
+/*                  ^ fg=#66d9ef fs= */
+/*                    ^ fg=#f92672 fs=bold */
+
+    a[lang] {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^ fg=#66d9ef fs=italic */
+/*    ^^^^ fg=#e6db74 fs= */
+/*        ^ fg=#66d9ef fs=italic */
+
+    a[lang="pt"] {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^ fg=#66d9ef fs=italic */
+/*    ^^^^ fg=#e6db74 fs= */
+/*        ^ fg=#66d9ef fs=italic */
+/*         ^^^^ fg=#e6db74 fs= */
+/*             ^ fg=#66d9ef fs=italic */
+
+    a[lang~="en-us"] {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^ fg=#66d9ef fs=italic */
+/*    ^^^^ fg=#e6db74 fs= */
+/*        ^^ fg=#66d9ef fs=italic */
+/*          ^^^^^^^ fg=#e6db74 fs= */
+/*                 ^ fg=#66d9ef fs=italic */
+
+    a[lang|="zh"] {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^ fg=#66d9ef fs=italic */
+/*    ^^^^ fg=#e6db74 fs= */
+/*        ^^ fg=#66d9ef fs=italic */
+/*          ^^^^ fg=#e6db74 fs= */
+/*              ^ fg=#66d9ef fs=italic */
+
+    a[href^="#"] {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^ fg=#66d9ef fs=italic */
+/*    ^^^^ fg=#e6db74 fs= */
+/*        ^^ fg=#66d9ef fs=italic */
+/*          ^^^ fg=#e6db74 fs= */
+/*             ^ fg=#66d9ef fs=italic */
+
+    a[class^="main"] {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^ fg=#66d9ef fs=italic */
+/*    ^^^^^ fg=#e6db74 fs= */
+/*         ^^ fg=#66d9ef fs=italic */
+/*           ^^^^^^ fg=#e6db74 fs= */
+/*                 ^ fg=#66d9ef fs=italic */
+
+    a[href$=".cn"] {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^ fg=#66d9ef fs=italic */
+/*    ^^^^ fg=#e6db74 fs= */
+/*        ^^ fg=#66d9ef fs=italic */
+/*          ^^^^^ fg=#e6db74 fs= */
+/*               ^ fg=#66d9ef fs=italic */
+
+    a[href*="example"] {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^ fg=#66d9ef fs=italic */
+/*    ^^^^ fg=#e6db74 fs= */
+/*        ^^ fg=#66d9ef fs=italic */
+/*          ^^^^^^^^^ fg=#e6db74 fs= */
+/*                   ^ fg=#66d9ef fs=italic */
+/*                     ^^ fg=#a6e22e fs= */
+
+    a[href^=http]::after {}
+/*  ^ fg=#f92672 fs=bold */
+/*   ^ fg=#66d9ef fs=italic */
+/*    ^^^^ fg=#e6db74 fs= */
+/*        ^^ fg=#66d9ef fs=italic */
+/*          ^^^^ fg=#e6db74 fs= */
+/*              ^ fg=#66d9ef fs=italic */
+/*               ^^^^^^^ fg=#a6e22e fs=italic */
+/*                       ^^ fg=#a6e22e fs= */
+
+    input[type="email" i] {}
+/*  ^^^^^ fg=#f92672 fs=bold */
+/*       ^ fg=#66d9ef fs=italic */
+/*        ^^^^ fg=#e6db74 fs= */
+/*            ^ fg=#66d9ef fs=italic */
+/*             ^^^^^^^ fg=#e6db74 fs= */
+/*                     ^ fg=#f92672 fs=bold */
+/*                      ^ fg=#66d9ef fs=italic */
+
+    * [lang^=en] {}
+/*  ^ fg=#f92672 fs= */
+/*    ^ fg=#66d9ef fs=italic */
+/*     ^^^^ fg=#e6db74 fs= */
+/*         ^^ fg=#66d9ef fs=italic */
+/*           ^^ fg=#e6db74 fs= */
+/*             ^ fg=#66d9ef fs=italic */
+
+    *.x {}
+/*  ^ fg=#f92672 fs= */
+/*   ^^ fg=#a6e22e fs= */
+
+    *#x {}
+/*  ^ fg=#f92672 fs= */
+/*   ^^ fg=#a6e22e fs= */
+
+    .x + * {}
+/*  ^^ fg=#a6e22e fs= */
+/*     ^ fg=#66d9ef fs= */
+/*       ^ fg=#f92672 fs= */
+
+@font-face {
+    font-family: x;
+/*  ^^^^^^^^^^^ fg=#fd971f fs=italic */
+/*             ^ fg=#f8f8f2 fs= */
+/*               ^ fg=#e6db74 fs= */
+/*                ^ fg=#f8f8f2 fs= */
+    src: url('x.ttf');
+/*  ^^^ fg=#fd971f fs=italic */
+/*     ^ fg=#f8f8f2 fs= */
+/*       ^^^^ fg=#a6e22e fs= */
+/*           ^^^^^^^ fg=#e6db74 fs= */
+/*                  ^ fg=#a6e22e fs= */
+/*                   ^ fg=#f8f8f2 fs= */
+}
+
+.x {
+
+    background-color: #ffffcc;
+/*  ^ fg=#fd971f fs=italic */
+/*                  ^ fg=#f8f8f2 fs= */
+/*                    ^^^^^^^ fg=#ae81ff fs=bold */
+/*                           ^ fg=#f8f8f2 fs= */
+
+    background: green;
+/*  ^ fg=#fd971f fs=italic */
+/*            ^ fg=#f8f8f2 fs= */
+/*              ^^^^^ fg=#ae81ff fs=bold */
+/*                   ^ fg=#f8f8f2 fs= */
+
+    background: no-repeat center/80% url("x");
+/*  ^ fg=#fd971f fs=italic */
+/*            ^ fg=#f8f8f2 fs= */
+/*              ^^^^^^^^^ fg=#ae81ff fs=bold */
+/*                        ^^^^^^ fg=#ae81ff fs=bold */
+/*                              ^ fg=#f8f8f2 fs= */
+/*                               ^^ fg=#ae81ff fs= */
+/*                                 ^ fg=#f92672 fs=bold */
+/*                                   ^^^^ fg=#a6e22e fs= */
+/*                                       ^^^ fg=#e6db74 fs= */
+/*                                          ^ fg=#a6e22e fs= */
+/*                                           ^ fg=#f8f8f2 fs= */
+
+    background: url("x") repeat-y;
+/*  ^ fg=#fd971f fs=italic */
+/*            ^ fg=#f8f8f2 fs= */
+/*              ^^^^ fg=#a6e22e fs= */
+/*                  ^^^ fg=#e6db74 fs= */
+/*                     ^ fg=#a6e22e fs= */
+/*                       ^^^^^^^^ fg=#ae81ff fs=bold */
+/*                               ^ fg=#f8f8f2 fs= */
+
+    border-radius: 10px 5% / 20px 25em 30px 35em;
+/*  ^^^^^^^^^^^^^ fg=#fd971f fs=italic */
+/*               ^ fg=#f8f8f2 fs= */
+/*                 ^^ fg=#ae81ff fs= */
+/*                   ^^ fg=#f92672 fs=bold */
+/*                      ^ fg=#ae81ff fs= */
+/*                       ^ fg=#f92672 fs=bold */
+/*                         ^ fg=#f8f8f2 fs= */
+/*                           ^^ fg=#ae81ff fs= */
+/*                             ^^ fg=#f92672 fs=bold */
+/*                                ^^ fg=#ae81ff fs= */
+/*                                  ^^ fg=#f92672 fs=bold */
+/*                                     ^^ fg=#ae81ff fs= */
+/*                                       ^^ fg=#f92672 fs=bold */
+/*                                          ^^ fg=#ae81ff fs= */
+/*                                            ^^ fg=#f92672 fs=bold */
+/*                                              ^ fg=#f8f8f2 fs= */
+
+    border: 1px #aaaaaa solid;
+/*          ^ fg=#ae81ff fs= */
+/*           ^^ fg=#f92672 fs=bold */
+/*              ^^^^^^^ fg=#ae81ff fs=bold */
+/*                      ^^^^^ fg=#ae81ff fs=bold */
+/*                           ^ fg=#f8f8f2 fs= */
+
+    border: medium dashed green;
+/*  ^ fg=#fd971f fs=italic */
+/*        ^ fg=#f8f8f2 fs= */
+/*          ^^^^^^ fg=#ae81ff fs=bold */
+/*                 ^^^^^^ fg=#ae81ff fs=bold */
+/*                        ^^^^^ fg=#ae81ff fs=bold */
+/*                             ^ fg=#f8f8f2 fs= */
+
+    color: currentcolor;
+/*  ^ fg=#fd971f fs=italic */
+/*       ^ fg=#f8f8f2 fs= */
+/*         ^^^^^^^^^^^^ fg=#ae81ff fs=bold */
+/*                     ^ fg=#f8f8f2 fs= */
+
+    color: red;
+/*         ^^^ fg=#ae81ff fs=bold */
+
+    color: #0f0;
+/*         ^^^^ fg=#ae81ff fs=bold */
+
+    color: #00ff00;
+/*         ^^^^^^^ fg=#ae81ff fs=bold */
+
+    color: #00ff0080;
+/*         ^^^^^^^^^ fg=#ae81ff fs=bold */
+
+    color: rgb(34, 12, 64, 0.3);
+/*         ^^^^ fg=#a6e22e fs= */
+/*             ^^ fg=#ae81ff fs= */
+/*               ^ fg=#f8f8f2 fs= */
+/*                 ^^ fg=#ae81ff fs= */
+/*                   ^ fg=#f8f8f2 fs= */
+/*                     ^^ fg=#ae81ff fs= */
+/*                       ^ fg=#f8f8f2 fs= */
+/*                         ^^^ fg=#ae81ff fs= */
+/*                            ^ fg=#a6e22e fs= */
+/*                             ^ fg=#f8f8f2 fs= */
+
+    color: hsl(30, 100%, 50%, 0.3);
+/*         ^^^^ fg=#a6e22e fs= */
+/*             ^^ fg=#ae81ff fs= */
+/*               ^ fg=#f8f8f2 fs= */
+/*                 ^^^ fg=#ae81ff fs= */
+/*                    ^ fg=#f92672 fs=bold */
+/*                     ^ fg=#f8f8f2 fs= */
+/*                       ^^ fg=#ae81ff fs= */
+/*                         ^ fg=#f92672 fs=bold */
+/*                          ^ fg=#f8f8f2 fs= */
+/*                            ^^^ fg=#ae81ff fs= */
+/*                               ^ fg=#a6e22e fs= */
+/*                                ^ fg=#f8f8f2 fs= */
+
+    content: "_\00A0_";
+/*           ^^ fg=#e6db74 fs= */
+/*             ^^^^^ fg=#66d9ef fs=italic */
+/*                  ^^ fg=#e6db74 fs= */
+
+    content: close-quote;
+/*           ^^^^^^^^^^^ fg=#ae81ff fs=bold */
+    content: normal;
+/*           ^^^^^^ fg=#ae81ff fs=bold */
+/*                 ^ fg=#f8f8f2 fs= */
+    display: block;
+/*           ^^^^^ fg=#ae81ff fs=bold */
+    display: inline;
+/*           ^^^^^^ fg=#ae81ff fs=bold */
+    display: none;
+/*           ^^^^ fg=#ae81ff fs=bold */
+    float: left;
+/*         ^^^^ fg=#ae81ff fs=bold */
+
+    font-family: X, sans-serif;
+/*               ^ fg=#e6db74 fs= */
+/*                  ^^^^^^^^^^ fg=#ae81ff fs=bold */
+
+    font-family: "x", sans-serif;
+/*               ^^^ fg=#e6db74 fs= */
+/*                    ^^^^^^^^^^ fg=#ae81ff fs=bold */
+
+    font-family: fantasy;
+/*               ^ fg=#ae81ff fs=bold */
+    font-family: monospace;
+/*               ^ fg=#ae81ff fs=bold */
+    font-family: sans-serif;
+/*               ^ fg=#ae81ff fs=bold */
+    font-family: serif;
+/*               ^ fg=#ae81ff fs=bold */
+
+    font-size: 14px;
+/*  ^^^^^^^^^ fg=#fd971f fs=italic */
+/*           ^ fg=#f8f8f2 fs= */
+/*             ^^ fg=#ae81ff fs= */
+/*               ^^ fg=#f92672 fs=bold */
+
+    margin: 2px 1em 0 auto;
+/*          ^ fg=#ae81ff fs= */
+/*           ^^ fg=#f92672 fs=bold */
+/*              ^ fg=#ae81ff fs= */
+/*               ^^ fg=#f92672 fs=bold */
+/*                  ^ fg=#ae81ff fs= */
+/*                    ^^^^ fg=#ae81ff fs=bold */
+
+    overflow: hidden;
+/*            ^ fg=#ae81ff fs=bold */
+
+    padding: 10px 3% 20px;
+/*           ^^ fg=#ae81ff fs= */
+/*             ^^ fg=#f92672 fs=bold */
+/*                ^ fg=#ae81ff fs= */
+/*                 ^ fg=#f92672 fs=bold */
+/*                   ^^ fg=#ae81ff fs= */
+/*                     ^^ fg=#f92672 fs=bold */
+}

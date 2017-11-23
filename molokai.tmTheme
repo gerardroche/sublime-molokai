@@ -80,8 +80,8 @@
 <dict><key>scope</key><string>entity.other.attribute-name.localname.xml</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>entity.other.pseudo-class.css</string>            <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>entity.other.pseudo-element.css</string>          <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>invalid.deprecated</string>                       <key>settings</key><dict><key>background</key><string>#f92672bb</string><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>background</key><string>#ff2222bb</string><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>invalid.deprecated</string>                       <key>settings</key><dict><key>background</key><string>#f9267260</string><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>background</key><string>#ff222260</string><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>keyword.control.at-rule.font-face.css</string>    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>keyword.control.at-rule.media.css</string>        <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>keyword.control.import.c</string>                 <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>bold</string></dict></dict>
@@ -104,6 +104,11 @@
 <dict><key>scope</key><string>meta.tag.preprocessor.xml entity.name.tag.xml</string>                    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>meta.tag.preprocessor.xml punctuation.definition.tag.begin.xml</string>   <key>settings</key><dict><key>foreground</key><string>#7e8e91</string></dict></dict>
 <dict><key>scope</key><string>meta.tag.preprocessor.xml punctuation.definition.tag.end.xml</string>     <key>settings</key><dict><key>foreground</key><string>#7e8e91</string></dict></dict>
+<dict><key>scope</key><string>punctuation.accessor.arrow.php</string>           <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.accessor.c</string>                   <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.accessor.double-colon.php</string>    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.accessor.php</string>                 <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.accessor.rust</string>                <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.array.begin</string>       <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.array.end</string>         <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.begin</string>             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
@@ -124,7 +129,11 @@
 <dict><key>scope</key><string>punctuation.section.group.end.c</string>          <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>punctuation.section.property-list.css</string>    <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>punctuation.section</string>                      <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>punctuation.separator.combinator.css</string>     <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>punctuation.separator.combinator.css</string>     <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.separator.inheritance.ruby</string>   <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.separator.key-value.ruby</string>     <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.separator.operator.css</string>       <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.separator.operator.scss</string>      <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>source.json constant.language</string>            <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>source.json punctuation.definition.array</string> <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>source.json punctuation.definition.dictionary</string>                    <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>

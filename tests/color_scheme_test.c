@@ -213,7 +213,8 @@ int foo(int a, float b[])
     //             ^ fg=#f8f8f2 fs=
 
     result->kk = func(val);
-    // ^^^^^^^ fg=#f8f8f2 fs=
+    // ^^^ fg=#f8f8f2 fs=
+    //    ^^ fg=#f92672 fs=
     //         ^ fg=#f92672 fs=
     //           ^^^^ fg=#f8f8f2 fs=
     //               ^^^^^^ fg=#f8f8f2 fs=

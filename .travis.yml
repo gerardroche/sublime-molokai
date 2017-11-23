@@ -12,10 +12,11 @@ matrix:
           python: 3.3
 
 before_install:
-    - curl -OL https://raw.githubusercontent.com/gerardroche/UnitTesting/develop/sbin/travis.sh
+    - curl -OL https://raw.githubusercontent.com/randy3k/UnitTesting/master/sbin/travis.sh
 
 install:
-    - sh travis.sh bootstrap --with-color-scheme-unit
+    - sh travis.sh bootstrap
+    - sh travis.sh install_color_scheme_unit
 
 script:
     - sh travis.sh run_color_scheme_tests --coverage

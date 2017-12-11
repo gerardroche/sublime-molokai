@@ -9,7 +9,7 @@ A Sublime Text color scheme inspired by [vim-molokai](https://github.com/tomasr/
 
 [ColorSchemeUnit](https://github.com/gerardroche/sublime-color-scheme-unit) is a testing framework for Sublime Text color schemes, it helps improve the quality of color schemes.
 
-**The classic Monokai color scheme has been moved to [MonokaiFree](https://github.com/gerardroche/sublime-monokai-free).**
+**Classic Monokai has been moved to [MonokaiFree](https://github.com/gerardroche/sublime-monokai-free).**
 
 ## INSTALLATION
 
@@ -19,7 +19,7 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 ### Manual installation
 
-Close Sublime Text then download or clone this repository to a directory named `molokai` in the Sublime Text Packages directory for your platform:
+Close Sublime Text, then download or clone this repository to a directory named `molokai` in the Sublime Text Packages directory for your platform:
 
 * Linux: `git clone https://github.com/gerardroche/sublime-molokai.git ~/.config/sublime-text-3/Packages/molokai`
 * OSX: `git clone https://github.com/gerardroche/sublime-molokai.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/molokai`

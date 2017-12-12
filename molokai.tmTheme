@@ -8,7 +8,7 @@
 
     COLOR TABLE
 
-    SUBLCOLR    | HEX       | Alternates
+    SUBLCOLR    | HEX       | Alternates?
 
     bg          | #1b1d1e
     bg_h        | #
@@ -30,37 +30,61 @@
             <key>settings</key>
             <dict>
 
+                <!-- Global settings -->
                 <key>background</key>                   <string>#1b1d1e</string>
                 <key>foreground</key>                   <string>#f8f8f2</string>
-
                 <key>caret</key>                        <string>#f8f8f0</string>
                 <key>lineHighlight</key>                <string>#293739aa</string>
 
+                <!-- Accents -->
                 <key>misspelling</key>                  <string>#ff0000</string>
                 <key>minimapBorder</key>                <string>#e6db74</string>
                 <key>accent</key>                       <string>#bbbb00</string>
 
+                <!-- CSS -->
+                <!-- <key>popupCss</key>                     <string></string> -->
+                <!-- <key>phantomCss</key>                   <string></string> -->
+
+                <!-- Gutter -->
                 <key>gutter</key>                       <string>#1b1d1e</string>
                 <key>gutterForeground</key>             <string>#465457</string>
 
+                <!-- Selection -->
                 <key>selection</key>                    <string>#403d3d</string>
+                <!-- <key>selectionForeground</key>          <string></string> -->
                 <key>selectionBorder</key>              <string>#1c1c1c</string>
+                <!-- <key>inactiveSelection</key>            <string></string> -->
+                <!-- <key>inactiveSelectionForeground</key>  <string></string> -->
 
+                <!-- Find -->
+                <!-- <key>highlight</key>                    <string>#</string> -->
                 <key>findHighlight</key>                <string>#ffe792</string>
                 <key>findHighlightForeground</key>      <string>#000000</string>
 
+                <!-- Guides -->
                 <key>guide</key>                        <string>#293739</string>
-                <key>stackGuide</key>                   <string>#635f2d</string>
                 <key>activeGuide</key>                  <string>#7fb11b</string>
+                <key>stackGuide</key>                   <string>#635f2d</string>
 
+                <!-- Brackets -->
                 <key>bracketsOptions</key>              <string>underline</string>
                 <key>bracketsForeground</key>           <string>#f8f8f2a5</string>
                 <key>bracketContentsOptions</key>       <string>underline</string>
                 <key>bracketContentsForeground</key>    <string>#f8f8f2a5</string>
 
+                <!-- Tags -->
                 <key>tagsOptions</key>                  <string>underline</string>
                 <key>tagsForeground</key>               <string>#f8f8f2a5</string>
-</dict></dict>
+
+                <!-- Shadows -->
+                <!-- <key>shadow</key>                       <string></string> -->
+                <!-- <key>shadowWidth</key>                  <string></string> -->
+
+                <!-- Beta -->
+                <!-- <key>rulers</key>                       <string></string> -->
+                <!-- <key>invisibles</key>                   <string></string> -->
+            </dict>
+        </dict>
 
 <dict><key>scope</key><string>comment</string>                                  <key>settings</key><dict><key>foreground</key><string>#7e8e91</string></dict></dict>
 <dict><key>scope</key><string>constant.character.escape.css</string>            <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
@@ -76,12 +100,12 @@
 <dict><key>scope</key><string>entity.name.tag</string>                          <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>entity.other.attribute-name.class.css</string>    <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>entity.other.attribute-name.css</string>          <key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>entity.other.attribute-name.id.css</string>       <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+<dict><key>scope</key><string>entity.other.attribute-name.id</string>           <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>entity.other.attribute-name.localname.xml</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>entity.other.pseudo-class.css</string>            <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>entity.other.pseudo-element.css</string>          <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>invalid.deprecated</string>                       <key>settings</key><dict><key>background</key><string>#f9267260</string><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>background</key><string>#ff222260</string><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>invalid.deprecated</string>                       <key>settings</key><dict><key>background</key><string>#f9267260</string><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>background</key><string>#ff222260</string><key>foreground</key><string>#ff2222</string></dict></dict>
 <dict><key>scope</key><string>keyword.control.at-rule.font-face.css</string>    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>keyword.control.at-rule.media.css</string>        <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>keyword.control.import.c</string>                 <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>bold</string></dict></dict>
@@ -97,6 +121,16 @@
 <dict><key>scope</key><string>keyword.other.namespace</string>                  <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>keyword.other.use</string>                        <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>keyword</string>                                  <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
+<dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#bbbb00</string></dict></dict>
+<dict><key>scope</key><string>markup.changed</string>                           <key>settings</key><dict><key>foreground</key><string>#bbbb00</string></dict></dict>
+<dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#ff2222</string></dict></dict>
+<dict><key>scope</key><string>markup.deleted</string>                           <key>settings</key><dict><key>foreground</key><string>#ff2222</string></dict></dict>
+<dict><key>scope</key><string>markup.ignored.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
+<dict><key>scope</key><string>markup.ignored</string>                           <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
+<dict><key>scope</key><string>markup.inserted.git_gutter</string>               <key>settings</key><dict><key>foreground</key><string>#009900</string></dict></dict>
+<dict><key>scope</key><string>markup.inserted</string>                          <key>settings</key><dict><key>foreground</key><string>#009900</string></dict></dict>
+<dict><key>scope</key><string>markup.untracked.git_gutter</string>              <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
+<dict><key>scope</key><string>markup.untracked</string>                         <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
 <dict><key>scope</key><string>meta.array support.function.construct</string>    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>meta.attribute-selector.css punctuation.definition.entity.css</string>    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>meta.function storage.modifier</string>           <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string>bold</string></dict></dict>
@@ -157,37 +191,33 @@
 <dict><key>scope</key><string>variable.other.global</string>                    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>variable</string>                                 <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 
+<!-- Plugin: SublimeLinter -->
 
-<!-- Markup -->
+    <dict><key>scope</key><string>markup.error.sublime_linter, markup.error.sublimelinter</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#ff222260</string>
+            <key>foreground</key><string>#ff2222</string>
+        </dict></dict>
 
-<dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#bbbb00</string></dict></dict>
-<dict><key>scope</key><string>markup.changed</string>                           <key>settings</key><dict><key>foreground</key><string>#bbbb00</string></dict></dict>
-<dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#ff2222</string></dict></dict>
-<dict><key>scope</key><string>markup.deleted</string>                           <key>settings</key><dict><key>foreground</key><string>#ff2222</string></dict></dict>
-<dict><key>scope</key><string>markup.ignored.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
-<dict><key>scope</key><string>markup.ignored</string>                           <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
-<dict><key>scope</key><string>markup.inserted.git_gutter</string>               <key>settings</key><dict><key>foreground</key><string>#009900</string></dict></dict>
-<dict><key>scope</key><string>markup.inserted</string>                          <key>settings</key><dict><key>foreground</key><string>#009900</string></dict></dict>
-<dict><key>scope</key><string>markup.untracked.git_gutter</string>              <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
-<dict><key>scope</key><string>markup.untracked</string>                         <key>settings</key><dict><key>foreground</key><string>#565656</string></dict></dict>
+    <dict><key>scope</key><string>markup.warning.sublime_linter, markup.warning.sublimelinter</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#fd971f60</string>
+            <key>foreground</key><string>#fd971f</string>
+        </dict></dict>
 
-<!-- Lint -->
-
-    <!-- SublimeLinter requires these definitions to
-         be formatted like this, otherwise it will
-         create a cached versions of the color
-         scheme and use its default colors
-         for the linter -->
+    <!-- DEPRECATED Older versions of SublimeLinter require style definitions to
+    be formatted like this, otherwise it will create a cached versions of the
+    color scheme and use its default colors for the linter. -->
 
     <dict>
         <key>scope</key>
         <string>sublimelinter.gutter-mark</string>
         <key>settings</key>
         <dict>
-            <key>foreground</key>
-            <string>#e6db74</string>
             <key>background</key>
-            <string>#1e0010</string>
+            <string>#ff222260</string>
+            <key>foreground</key>
+            <string>#ff2222</string>
         </dict>
     </dict>
     <dict>
@@ -195,10 +225,10 @@
         <string>sublimelinter.mark.error</string>
         <key>settings</key>
         <dict>
+            <key>background</key>
+            <string>#ff222260</string>
             <key>foreground</key>
-            <string>#ff0000</string>
-            <key>fontStyle</key>
-            <string>undercurl</string>
+            <string>#ff2222</string>
         </dict>
     </dict>
     <dict>
@@ -206,17 +236,34 @@
         <string>sublimelinter.mark.warning</string>
         <key>settings</key>
         <dict>
+            <key>background</key>
+            <string>#fd971f60</string>
             <key>foreground</key>
-            <string>#7070f0</string>
-            <key>fontStyle</key>
-            <string>undercurl</string>
+            <string>#fd971f</string>
         </dict>
     </dict>
 
-<!--
-    These are quick and dirty fixes for changes in the new PHP syntax
--->
+<!-- Plugin: PHPUnitKit -->
 
+    <dict><key>scope</key><string>region.greenish phpunitkit</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#a6e22e</string>
+            <key>foreground</key><string>#1b1d1e</string>
+        </dict></dict>
+
+    <dict><key>scope</key><string>region.orangish phpunitkit</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#fd971f</string>
+            <key>foreground</key><string>#1b1d1e</string>
+        </dict></dict>
+
+    <dict><key>scope</key><string>region.redish phpunitkit</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#ff2222</string>
+            <key>foreground</key><string>#f8f8f2</string>
+        </dict></dict>
+
+<!-- These are quick and dirty fixes for changes in the new PHP syntax -->
 <dict><key>scope</key><string>punctuation.accessor.php</string><key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>meta.class.php meta.block.php meta.function-call.method.php variable.function.php</string><key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 
